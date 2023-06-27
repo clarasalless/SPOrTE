@@ -1,16 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package ufc.cdh.sporte;
-
-/**
- *
- * @author clara
- */
+import ufc.cdh.sporte.participantes.*;
 public class SPOrTE {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello Worldde!");
+        Jogador jog = new Jogador("ansdasda", 55);
+        System.out.println(jog.getNome() + " " + jog.getIdade());
     }
 }
