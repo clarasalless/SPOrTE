@@ -1,14 +1,13 @@
 package ufc.cdh.sporte.torneio;
 
-public class Tournament {
+public abstract class Tournament {
 	
-	private Game games[];
-	private 
 	
-	public Tournament() {
-		this.games = new Game[7];
-	}
 	
+//	public Tournament(int number) {
+//		this.games = new Game[number];
+//	}
+//	
 	public void generateBracket() {
 		
 	}
