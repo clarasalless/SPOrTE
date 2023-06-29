@@ -1,4 +1,8 @@
-ufc\cdh\sporte\participantes\Participante.class
-ufc\cdh\sporte\participantes\Jogador.class
+ufc\cdh\sporte\organizadordetimes\participantes\Coach.class
+ufc\cdh\sporte\organizadordetimes\times\iTime.class
+ufc\cdh\sporte\organizadordetimes\participantes\Participante.class
+ufc\cdh\sporte\organizadordetimes\times\TimeAbstrato.class
 ufc\cdh\sporte\SPOrTE.class
-ufc\cdh\sporte\participantes\Coach.class
+ufc\cdh\sporte\organizadordetimes\OrganizadorAbstrato.class
+ufc\cdh\sporte\organizadordetimes\times\TimeSeeded.class
+ufc\cdh\sporte\organizadordetimes\participantes\Jogador.class
