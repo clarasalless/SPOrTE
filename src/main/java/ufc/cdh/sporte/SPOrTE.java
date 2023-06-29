@@ -4,7 +4,7 @@ import ufc.cdh.sporte.organizadordetimes.times.TimeSeeded;
 public class SPOrTE {
 
     public static void main(String[] args) {
-        System.out.println("Hello Worldde!");
+        System.out.println("Hello World!");
         TimeSeeded time = new TimeSeeded("temptime", 10);
         Jogador jog = new Jogador("jodgarod", time,100);
         time.CadastrarJogador(jog);

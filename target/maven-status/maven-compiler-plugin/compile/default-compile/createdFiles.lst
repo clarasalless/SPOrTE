@@ -1,4 +1,5 @@
 ufc\cdh\sporte\organizadordetimes\participantes\Coach.class
+ufc\cdh\sporte\organizadordetimes\times\TimeNaoSeeded.class
 ufc\cdh\sporte\organizadordetimes\times\iTime.class
 ufc\cdh\sporte\organizadordetimes\participantes\Participante.class
 ufc\cdh\sporte\organizadordetimes\times\TimeAbstrato.class
