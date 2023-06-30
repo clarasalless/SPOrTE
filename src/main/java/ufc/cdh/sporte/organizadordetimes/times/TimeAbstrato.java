@@ -8,7 +8,6 @@ public abstract class TimeAbstrato implements iTime{
     String nome;
     Vector<Jogador> jogadores;
     Coach coach;
-    int tamanho;
     public TimeAbstrato(String nome){
         this.nome = nome;
         jogadores = new Vector();
@@ -36,7 +35,7 @@ public abstract class TimeAbstrato implements iTime{
         return coach;
     }
     public int getTamanho(){
-        return tamanho;
+        return jogadores.size();
     }
     public String getNome(){
         return nome;
