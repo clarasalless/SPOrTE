@@ -7,10 +7,10 @@ public abstract class AbstractMatch {
 	private Team loser = null;
 	private int scoreA = 0;
 	private int scoreB = 0;
-	private int number;
+	private int id;
 	
-	public AbstractMatch(int number) {
-		this.number = number;
+	public AbstractMatch(int id) {
+		this.id = id;
 	}
 	
 	public Team getTeamA() {
@@ -37,8 +37,8 @@ public abstract class AbstractMatch {
 		return this.scoreB;
 	}
 	
-	public int getNumber() {
-		return this.number;
+	public int getID() {
+		return this.id;
 	}
 	
 	public abstract void setTeamA(); 

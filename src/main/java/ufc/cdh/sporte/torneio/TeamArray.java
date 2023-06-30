@@ -16,6 +16,14 @@ public class TeamArray {
 		}
 	}
 	
+	public Team searchTeam(int seed) {
+		for (int i = 0; i < this.numberOfTeams(); i++) {
+	        if (this.teams[i].getSeed() == seed)
+	        	return teams[i];
+	      }
+		return null;
+	}
+	
 	//retorna uma lista de times 
 	public Team[] listTeams() {
 		Team[] list = null;
