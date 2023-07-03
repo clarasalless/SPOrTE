@@ -19,10 +19,6 @@ public class SPOrTE {
         t.generateBracket();
         System.out.println(t.getOrg().getTamanho());
         System.out.println(t.getBracket().getMatches().size());
-        for(int i = 0; i < t.getBracket().getMatches().size(); i++){
-            System.out.println(t.getBracket().getMatches().get(i).getTeamA().getNome());
-            System.out.println(t.getBracket().getMatches().get(i).getTeamB().getNome());
-        }
         
     }
 }
