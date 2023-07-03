@@ -1,10 +1,12 @@
 package ufc.cdh.sporte.torneio;
 
+import ufc.cdh.sporte.organizadordetimes.times.TimeAbstrato;
+
 public abstract class AbstractMatch {
-	protected Team teamA = null;
-	protected Team teamB = null;
-	private Team winner = null;
-	private Team loser = null;
+	protected TimeAbstrato teamA = null;
+	protected TimeAbstrato teamB = null;
+	private TimeAbstrato winner = null;
+	private TimeAbstrato loser = null;
 	private int scoreA = 0;
 	private int scoreB = 0;
 	private int id;
@@ -14,24 +16,23 @@ public abstract class AbstractMatch {
 		this.id = id;
 	}
 	
-	
 	//retorna o time A do jogo
-	public Team getTeamA() {
+	public TimeAbstrato getTeamA() {
 		return this.teamA;
 	}
 	
 	//retorna o time B do jogo
-	public Team getTeamB() {
+	public TimeAbstrato getTeamB() {
 		return this.teamB;
 	}
 	
 	//retorna o vencedor do jogo
-	public Team getWinner() {
+	public TimeAbstrato getWinner() {
 		return this.winner;
 	}
 	
 	//retorna perdedor do jogo
-	public Team getLoser() {
+	public TimeAbstrato getLoser() {
 		return this.loser;
 	}
 	
@@ -51,18 +52,18 @@ public abstract class AbstractMatch {
 	}
 	
 	//determina o time A 
-	public abstract void setTeamA(); 
+	public abstract void setTeamA(TimeAbstrato time); 
 	
 	//determina o time B
-	public abstract void setTeamB(); 
+	public abstract void setTeamB(TimeAbstrato time); 
 	
 	//determina o time vencedor do jogo
-	public void setWinner(Team team) {
+	public void setWinner(TimeAbstrato team) {
 		this.winner = team;
 	}
 	
 	//determina o time perdedor do jogo
-	public void setLoser(Team team) {
+	public void setLoser(TimeAbstrato team) {
 		this.loser = team;
 	}
 	

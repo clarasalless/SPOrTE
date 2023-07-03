@@ -2,12 +2,12 @@ package ufc.cdh.sporte.torneio;
 
 public class DoubleElimination extends Tournament {
 	
-	Bracket upperBracket[];
-	Bracket lowerBracket[];
+	Bracket upperBracket;
+	Bracket lowerBracket;
 	
-	public DoubleElimination(Bracket upperBracket[], Bracket lowerBracket[]) {
-		
-		this.upperBracket = upperBracket;
-		this.lowerBracket = lowerBracket;
+	public DoubleElimination(boolean isSeeded){
+            super(isSeeded);
+            this.upperBracket = new Bracket();
+            this.lowerBracket = new Bracket();
 	}
 }

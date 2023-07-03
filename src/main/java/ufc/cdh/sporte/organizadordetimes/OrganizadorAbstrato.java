@@ -10,7 +10,6 @@ public abstract class OrganizadorAbstrato{
     public OrganizadorAbstrato(){
         times = new Vector();   
     }
-    
     public void RemoverTime(int i){
         times.remove(i);
     }
@@ -32,6 +31,8 @@ public abstract class OrganizadorAbstrato{
     public void RemoverCoach(int i){
         times.get(i).RemoverCoach();
     }
+    
+    public abstract void Ordenar();
     
     public TimeAbstrato getTime(int i){
         return times.get(i);

@@ -11,7 +11,7 @@ public class Bracket {
 	
 	//insere um jogo na chave
 	public void insertMatch(AbstractMatch match) {
-		this.matches.add(match.getID()-1,match);
+		this.matches.add(match);
 	}
 	
 	//busca um jogo pela id (numero)
@@ -23,4 +23,7 @@ public class Bracket {
 		return null;
 	}
 	
+        public Vector<AbstractMatch> getMatches(){
+            return matches;
+        }
 }
