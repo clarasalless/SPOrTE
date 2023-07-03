@@ -1,1 +1,11 @@
+ufc\cdh\sporte\organizadordetimes\participantes\Coach.class
+ufc\cdh\sporte\organizadordetimes\times\TimeNaoSeeded.class
+ufc\cdh\sporte\organizadordetimes\times\iTime.class
+ufc\cdh\sporte\organizadordetimes\participantes\Participante.class
+ufc\cdh\sporte\organizadordetimes\times\TimeAbstrato.class
 ufc\cdh\sporte\SPOrTE.class
+ufc\cdh\sporte\organizadordetimes\OrganizadorAbstrato.class
+ufc\cdh\sporte\organizadordetimes\times\TimeSeeded.class
+ufc\cdh\sporte\organizadordetimes\OrganizadorNaoSeeded.class
+ufc\cdh\sporte\organizadordetimes\OrganizadorSeeded.class
+ufc\cdh\sporte\organizadordetimes\participantes\Jogador.class

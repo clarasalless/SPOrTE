@@ -1,6 +1,11 @@
-C:\Users\clara\OneDrive\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\torneio\Game.java
-C:\Users\clara\OneDrive\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\torneio\Tournament.java
-C:\Users\clara\OneDrive\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\torneio\Bracket.java
-C:\Users\clara\OneDrive\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\torneio\DoubleElimination.java
-C:\Users\clara\OneDrive\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\SPOrTE.java
-C:\Users\clara\OneDrive\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\torneio\SingleElimination.java
+C:\Users\CdH\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\organizadordetimes\times\TimeAbstrato.java
+C:\Users\CdH\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\organizadordetimes\participantes\Coach.java
+C:\Users\CdH\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\organizadordetimes\times\TimeSeeded.java
+C:\Users\CdH\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\organizadordetimes\OrganizadorSeeded.java
+C:\Users\CdH\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\organizadordetimes\times\TimeNaoSeeded.java
+C:\Users\CdH\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\SPOrTE.java
+C:\Users\CdH\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\organizadordetimes\participantes\Jogador.java
+C:\Users\CdH\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\organizadordetimes\OrganizadorNaoSeeded.java
+C:\Users\CdH\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\organizadordetimes\participantes\Participante.java
+C:\Users\CdH\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\organizadordetimes\times\iTime.java
+C:\Users\CdH\Documents\GitHub\SPOrTE\src\main\java\ufc\cdh\sporte\organizadordetimes\OrganizadorAbstrato.java
