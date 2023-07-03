@@ -26,7 +26,7 @@ public class SPOrTE {
         
         createMatches(teamArray,bracket);
         for(int i=1; i<8; i++) {
-        	System.out.printf("%d\n",bracket.searchMatch(i).getID());
+        	System.out.println(bracket.searchMatch(i).getTeamA());
         }
     }
     
@@ -58,27 +58,41 @@ public class SPOrTE {
     
 	public static void createMatches(TeamArray teamArray, Bracket bracket) {
 		InitMatch match1 = new InitMatch(1, teamArray);
+		match1.setTeamA();
+		match1.setTeamB();
 		bracket.insertMatch(match1);
 		
 		InitMatch match2 = new InitMatch(2, teamArray);
+		match2.setTeamA();
+		match2.setTeamB();
 		bracket.insertMatch(match2);
 		
 		InitMatch match3 = new InitMatch(3, teamArray);
+		match3.setTeamA();
+		match3.setTeamB();
 		bracket.insertMatch(match3);
 		
 		InitMatch match4 = new InitMatch(4, teamArray);
+		match4.setTeamA();
+		match4.setTeamB();
 		bracket.insertMatch(match4);
 		
 		match3.setWinner(match3.getTeamB());
 		match4.setWinner(match4.getTeamA());
 		
 		Match match5 = new Match(5, bracket);
+		match5.setTeamA();
+		match5.setTeamB();
 		bracket.insertMatch(match5);
 		
 		Match match6 = new Match(6, bracket);
+		match6.setTeamA();
+		match6.setTeamB();
 		bracket.insertMatch(match6);
 		
 		Match match7 = new Match(7, bracket);
+		match7.setTeamA();
+		match7.setTeamB();
 		bracket.insertMatch(match7);
 	}
 }

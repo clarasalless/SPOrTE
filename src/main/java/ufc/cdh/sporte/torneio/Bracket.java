@@ -9,12 +9,12 @@ public class Bracket {
 		this.matches = new Vector<AbstractMatch>();
 	}
 	
-	
-	
+	//insere um jogo na chave
 	public void insertMatch(AbstractMatch match) {
 		this.matches.add(match.getID()-1,match);
 	}
 	
+	//busca um jogo pela id (numero)
 	public AbstractMatch searchMatch(int number) {
 		for(AbstractMatch match : this.matches) {
 			if(match.getID() == number)

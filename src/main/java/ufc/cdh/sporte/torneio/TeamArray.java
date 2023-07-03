@@ -16,6 +16,7 @@ public class TeamArray {
 		}
 	}
 	
+	//busca um time pelo seed
 	public Team searchTeam(int seed) {
 		for (int i = 0; i < this.numberOfTeams(); i++) {
 	        if (this.teams[i].getSeed() == seed)
