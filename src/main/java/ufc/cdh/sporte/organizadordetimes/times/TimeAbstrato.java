@@ -8,6 +8,7 @@ public abstract class TimeAbstrato implements iTime{
     String nome;
     Vector<Jogador> jogadores;
     Coach coach;
+    
     public TimeAbstrato(String nome){
         this.nome = nome;
         jogadores = new Vector();
