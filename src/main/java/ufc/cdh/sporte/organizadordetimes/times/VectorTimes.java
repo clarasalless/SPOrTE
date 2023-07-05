@@ -38,23 +38,20 @@ public class VectorTimes {
 		return this.times;
 	}
 	
-	//ordena os times pelo seed
-	public Vector<TimeAbstrato> ordenaTimes(){
-		if(times.size() >= 2){
-            TimeAbstrato aux;
-            for (int i = 0; i < times.size() - 1; i++){
-                if(((TimeSeeded)times.get(i)).getSeed() >= ((TimeSeeded)times.get(i+1)).getSeed()){
-                    aux = times.get(i+1);
-                    times.set(i + 1, times.get(i));
-                    times.set(i, aux);
+	//ordena os times pelo seed (bubble sort)
+	public void ordenaTimes(Vector<TimeAbstrato> times) {
+        int n = times.size();
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (((TimeSeeded)times.get(j)).getSeed() > ((TimeSeeded)times.get(j + 1)).getSeed()) {
+                    TimeSeeded temp = ((TimeSeeded)times.get(j));
+                    times.set(j, times.get(j + 1));
+                    times.set(j + 1, temp);
                 }
             }
-            return this.times;
         }
-		else 
-			return this.times;
-	}
-	
+    }
+
 	//retorna o numero de times do torneio
 	public int numeroDeTimes() {
 		return this.times.size();

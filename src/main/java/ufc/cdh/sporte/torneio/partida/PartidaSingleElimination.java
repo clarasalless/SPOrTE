@@ -10,7 +10,9 @@ public class PartidaSingleElimination extends PartidaAbstrata {
 		this.chave = chave;
 	}
 	
+	
 	@Override
+	//usa a chave de partidas do campeonato para obter o time A dos jogos seguintes
 	public void setTimeA() {
 		//jogo 5: timeA = vencedor jogo 1
 		if(this.getID() == 5) 
@@ -26,18 +28,19 @@ public class PartidaSingleElimination extends PartidaAbstrata {
 	}
 
 	@Override
+	//usa a chave de partidas do campeonato para obter o time B dos jogos seguintes
 	public void setTimeB() {
 		//jogo 5: timeB = vencedor jogo 2
 		if(this.getID() == 5) 
-			this.timeA = chave.buscaPartida(2).getVencedor();
+			this.timeB = chave.buscaPartida(2).getVencedor();
 						
 		//jogo 6: timeB = vencedor jogo 4
 		if(this.getID() == 6) 
-			this.timeA = chave.buscaPartida(4).getVencedor();
+			this.timeB = chave.buscaPartida(4).getVencedor();
 						
 		//jogo 7: timeB = vencedor jogo 6
 		if(this.getID() == 7) 
-			this.timeA = chave.buscaPartida(6).getVencedor();	
+			this.timeB = chave.buscaPartida(6).getVencedor();	
 	}
 
 }

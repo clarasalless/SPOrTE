@@ -1,6 +1,5 @@
 package ufc.cdh.sporte.torneio.partida;
 
-import ufc.cdh.sporte.organizadordetimes.*;
 import ufc.cdh.sporte.organizadordetimes.times.VectorTimes;
 
 public class PartidaInit extends PartidaAbstrata {
