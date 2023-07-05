@@ -11,7 +11,7 @@ public class ControladorPartidas {
 		this.bracket = bracket;
 	}
 	
-	public Chave getBracket() {
+	public Chave getChave() {
 		return this.bracket;
 	}
 	

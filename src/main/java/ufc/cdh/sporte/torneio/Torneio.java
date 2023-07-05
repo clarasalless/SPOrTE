@@ -1,6 +1,7 @@
 package ufc.cdh.sporte.torneio;
 
 import ufc.cdh.sporte.controladores.*;
+import ufc.cdh.sporte.partida.PartidaAbstrata;
 import ufc.cdh.sporte.times.*;
 
 public abstract class Torneio {
@@ -31,6 +32,16 @@ public abstract class Torneio {
 		return this.nome;
 	}
     
+	//retorna o vetor de times do torneio
+	public VectorTimes getTimes() {
+		return this.times;
+	}
+	
+	//retorna a chave do torneio (repositorio de partidas)
+	public Chave getChave() {
+		return this.bracket;
+	}
+	
 	//cadastra um time no repositorio de times do torneio
 	public void cadastrarTime(TimeAbstrato time) {
 		contTimes.inserirTime(time);
@@ -54,6 +65,10 @@ public abstract class Torneio {
 	//retorna a quantidade de times cadastrados no repositorio de times do torneio
 	public int numeroDeTimes() {
 		return contTimes.numeroDeTimes();
+	}
+	
+	public PartidaAbstrata buscaPartida(int id) {
+		return contPartidas.buscaPartida(id);
 	}
 	
     
