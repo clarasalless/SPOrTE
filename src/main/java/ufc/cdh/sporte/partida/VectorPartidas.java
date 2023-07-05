@@ -1,8 +1,8 @@
-package ufc.cdh.sporte.torneio.partida;
+package ufc.cdh.sporte.partida;
 
 import java.util.Vector;
 
-import ufc.cdh.sporte.organizadordetimes.times.VectorTimes;
+import ufc.cdh.sporte.times.VectorTimes;
 
 public class VectorPartidas {
 	private Vector<PartidaAbstrata> partidas;

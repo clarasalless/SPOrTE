@@ -1,4 +1,4 @@
-package ufc.cdh.sporte.organizadordetimes.times;
+package ufc.cdh.sporte.times;
 
 public class TimeSeeded extends TimeNaoSeeded{
     int seed;

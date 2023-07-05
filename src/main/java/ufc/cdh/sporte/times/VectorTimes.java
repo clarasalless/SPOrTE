@@ -1,7 +1,9 @@
-package ufc.cdh.sporte.organizadordetimes.times;
+package ufc.cdh.sporte.times;
 
 import java.util.Collections;
 import java.util.Vector;
+
+import ufc.cdh.sporte.times.excecao.TimeExistenteException;
 
 
 public class VectorTimes {
@@ -18,7 +20,7 @@ public class VectorTimes {
 	
 	//insere um novo time no repositorio
 	public void inserirTime(TimeAbstrato time) {
-		if(time != null) 
+		if(time != null && !timeExiste(time.getNome())) 
 			this.times.add(time);
 	}
 	
@@ -30,6 +32,14 @@ public class VectorTimes {
 	//busca um time 
 	public TimeAbstrato buscaTime(int i) {
 		return times.get(i);
+	}
+	
+	public boolean timeExiste(String nome) {
+		for(TimeAbstrato time : times) {
+			if(time.getNome().equals(nome))
+				return true;
+		}
+		return false;
 	}
 	
 	//ordena os times de forma aleatória

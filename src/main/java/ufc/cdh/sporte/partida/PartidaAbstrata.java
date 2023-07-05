@@ -1,6 +1,6 @@
-package ufc.cdh.sporte.torneio.partida;
+package ufc.cdh.sporte.partida;
 
-import ufc.cdh.sporte.organizadordetimes.times.TimeAbstrato;
+import ufc.cdh.sporte.times.TimeAbstrato;
 
 public abstract class PartidaAbstrata {
 	protected TimeAbstrato timeA = null;

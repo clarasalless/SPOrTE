@@ -2,7 +2,7 @@ package ufc.cdh.sporte.torneio;
 
 import java.util.Vector;
 
-import ufc.cdh.sporte.torneio.partida.PartidaAbstrata;
+import ufc.cdh.sporte.partida.PartidaAbstrata;
 
 public class Chave {
 	private Vector<PartidaAbstrata> partidas;

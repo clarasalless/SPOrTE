@@ -1,4 +1,4 @@
-package ufc.cdh.sporte.torneio.partida;
+package ufc.cdh.sporte.partida;
 
 import ufc.cdh.sporte.torneio.Chave;
 

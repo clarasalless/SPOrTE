@@ -1,8 +1,9 @@
 package ufc.cdh.sporte;
 
 
-import ufc.cdh.sporte.organizadordetimes.times.*;
+import ufc.cdh.sporte.times.*;
 import ufc.cdh.sporte.torneio.*;
+
 
 public class SPOrTE {
 

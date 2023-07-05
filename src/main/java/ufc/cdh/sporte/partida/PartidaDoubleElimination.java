@@ -1,4 +1,4 @@
-package ufc.cdh.sporte.torneio.partida;
+package ufc.cdh.sporte.partida;
 
 import ufc.cdh.sporte.torneio.Chave;
 
@@ -10,7 +10,6 @@ public class PartidaDoubleElimination extends PartidaAbstrata {
 	}
 	
 	@Override
-	
 	//usa a chave de partidas do campeonato para obter o time A dos jogos seguintes
 	public void setTimeA() {
 		//jogo 5: timeA = perdedor jogo 1

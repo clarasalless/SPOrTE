@@ -1,6 +1,6 @@
 package ufc.cdh.sporte.torneio;
 
-import ufc.cdh.sporte.organizadordetimes.times.VectorTimes;
+import ufc.cdh.sporte.times.VectorTimes;
 
 public abstract class Torneio {
 	protected Chave bracket;
@@ -13,7 +13,8 @@ public abstract class Torneio {
 		if(isSeeded){
 			times.ordenaTimes(times.getTimes());
         }
-        else{
+        
+		else{
             times.embaralhaTimes();
         }
     }

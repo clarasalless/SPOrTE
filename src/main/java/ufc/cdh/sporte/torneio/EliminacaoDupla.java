@@ -1,7 +1,7 @@
 package ufc.cdh.sporte.torneio;
 
-import ufc.cdh.sporte.organizadordetimes.times.VectorTimes;
-import ufc.cdh.sporte.torneio.partida.*;
+import ufc.cdh.sporte.partida.*;
+import ufc.cdh.sporte.times.VectorTimes;
 
 public class EliminacaoDupla extends Torneio {
 	
