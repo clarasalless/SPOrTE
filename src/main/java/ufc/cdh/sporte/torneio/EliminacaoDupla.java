@@ -5,8 +5,8 @@ import ufc.cdh.sporte.times.VectorTimes;
 
 public class EliminacaoDupla extends Torneio {
 	
-	public EliminacaoDupla(VectorTimes times,boolean isSeeded){
-            super(times, isSeeded);
+	public EliminacaoDupla(String nome,VectorTimes times,boolean isSeeded){
+            super(nome,times, isSeeded);
             this.bracket = new Chave();
 	}
     

@@ -44,7 +44,7 @@ public class SPOrTE {
        
         
         //CRIA TORNEIO E GERA AS CHAVES
-        Torneio t1 = new EliminacaoDupla(times1,isSeeded);
+        Torneio t1 = new EliminacaoDupla("torneio1",times1,isSeeded);
         t1.geraChave();
         Chave bracket1 = t1.getChave();
         
@@ -123,7 +123,7 @@ public class SPOrTE {
         
         
         //CRIA TORNEIO E GERA AS CHAVES
-    	Torneio t2 = new EliminacaoSimples(times2, isSeeded);
+    	Torneio t2 = new EliminacaoSimples("torneio2",times2, isSeeded);
     	t2.geraChave();
     	Chave bracket2 = t2.getChave();
     	

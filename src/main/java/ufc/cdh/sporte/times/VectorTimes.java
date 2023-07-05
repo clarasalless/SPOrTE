@@ -3,9 +3,6 @@ package ufc.cdh.sporte.times;
 import java.util.Collections;
 import java.util.Vector;
 
-import ufc.cdh.sporte.times.excecao.TimeExistenteException;
-
-
 public class VectorTimes {
 	private Vector<TimeAbstrato> times;
 	
@@ -29,11 +26,12 @@ public class VectorTimes {
 		this.times.remove(time);
 	}
 	
-	//busca um time 
+	//busca um time pela sua posição no vet 
 	public TimeAbstrato buscaTime(int i) {
 		return times.get(i);
 	}
 	
+	//verifica se existe algum time com o nome passado no repositório
 	public boolean timeExiste(String nome) {
 		for(TimeAbstrato time : times) {
 			if(time.getNome().equals(nome))
