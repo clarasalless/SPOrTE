@@ -1,6 +1,7 @@
-package ufc.cdh.sporte.organizadordetimes.times;
+package ufc.cdh.sporte.times;
 import java.util.Vector;
-import ufc.cdh.sporte.organizadordetimes.participantes.*;
+
+import ufc.cdh.sporte.participantes.*;
 public interface iTime {
     public void CadastrarJogador(Jogador jogador);
     public void RemoverJogador(int i);

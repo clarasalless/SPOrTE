@@ -1,6 +1,6 @@
-package ufc.cdh.sporte.organizadordetimes.participantes;
+package ufc.cdh.sporte.participantes;
 
-import ufc.cdh.sporte.organizadordetimes.times.TimeAbstrato;
+import ufc.cdh.sporte.times.TimeAbstrato;
 
 public abstract class Participante {
     String nome;
