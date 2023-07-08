@@ -4,6 +4,9 @@ import java.util.Vector;
 
 import ufc.cdh.sporte.participantes.Coach;
 import ufc.cdh.sporte.participantes.Jogador;
+import ufc.cdh.sporte.participantes.exceptions.CoachExistenteException;
+import ufc.cdh.sporte.participantes.exceptions.JogadorInexistenteException;
+import ufc.cdh.sporte.participantes.exceptions.JogadorRepetidoException;
 
 public abstract class TimeAbstrato implements iTime{
     String nome;
@@ -12,15 +15,23 @@ public abstract class TimeAbstrato implements iTime{
     
     public TimeAbstrato(String nome){
         this.nome = nome;
-        jogadores = new Vector();
+        jogadores = new Vector<Jogador>();
         coach = null;
     }
     
-    public void CadastrarJogador(Jogador jogador){
-        jogadores.add(jogador);
+    public void CadastrarJogador(Jogador jogador) throws JogadorRepetidoException{
+        if(!JogadorExiste(jogador.getNome())){
+            jogadores.add(jogador);
+        }
+        else{
+            throw new JogadorRepetidoException(jogador);
+        }
     }
     
-    public void RemoverJogador(int i){
+    public void RemoverJogador(int i) throws JogadorInexistenteException{
+        if(jogadores.size()-1 < i){
+            throw new JogadorInexistenteException(i);
+        }
         jogadores.remove(i);
     }
     
@@ -32,12 +43,24 @@ public abstract class TimeAbstrato implements iTime{
         return jogadores;
     }
     
-    public void CadastrarCoach(Coach coach){
+    public void CadastrarCoach(Coach coach) throws CoachExistenteException{
+        if(coach != null){
+            throw new CoachExistenteException(coach);
+        }
         this.coach = coach;
     }
     
     public void RemoverCoach(){
         coach = null;
+    }
+    
+    public boolean JogadorExiste(String nome){
+        for(int i = 0; i < getTamanho(); i++){
+            if(jogadores.get(i).getNome().equals(nome)){
+                return true;
+            }
+        }
+        return false;
     }
     
     public Coach getCoach(){

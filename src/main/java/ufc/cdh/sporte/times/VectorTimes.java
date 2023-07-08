@@ -2,6 +2,8 @@ package ufc.cdh.sporte.times;
 
 import java.util.Collections;
 import java.util.Vector;
+import ufc.cdh.sporte.times.excecao.TimeExistenteException;
+import ufc.cdh.sporte.times.excecao.TimeInexistenteException;
 
 public class VectorTimes {
 	private Vector<TimeAbstrato> times;
@@ -16,14 +18,21 @@ public class VectorTimes {
 	}
 	
 	//insere um novo time no repositorio
-	public void inserirTime(TimeAbstrato time) {
-		if(time != null && !timeExiste(time.getNome())) 
+	public void inserirTime(TimeAbstrato time) throws TimeExistenteException{
+		if(time != null && !timeExiste(time.getNome())){ 
 			this.times.add(time);
+                }
+                else{
+                    throw new TimeExistenteException(time);
+                }
 	}
 	
 	//remove um time do repositório
-	public void removerTime(TimeAbstrato time) {
-		this.times.remove(time);
+	public void removerTime(TimeAbstrato time) throws TimeInexistenteException{
+            if(!timeExiste(time.getNome())){
+                throw new TimeInexistenteException(time.getNome());
+            }
+            this.times.remove(time);
 	}
 	
 	//busca um time pela sua posição no vet 

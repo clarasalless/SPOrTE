@@ -3,6 +3,8 @@ package ufc.cdh.sporte.controladores;
 import java.util.Vector;
 
 import ufc.cdh.sporte.times.*;
+import ufc.cdh.sporte.times.excecao.TimeExistenteException;
+import ufc.cdh.sporte.times.excecao.TimeInexistenteException;
 
 public class ControladorTimes {
 	private VectorTimes times;
@@ -16,15 +18,21 @@ public class ControladorTimes {
 	}
 	
 	public void inserirTime(TimeAbstrato time) {
-		if(!times.timeExiste(time.getNome())){
-			times.inserirTime(time);
+		try{
+                    times.inserirTime(time);
 		}
+                catch(TimeExistenteException e){
+                    System.out.println(e.getMessage());
+                }
 	}
 	
 	public void removerTime(TimeAbstrato time) {
-		if(times.timeExiste(time.getNome())){
-			times.removerTime(time);
+		try{
+                    times.removerTime(time);
 		}
+                catch(TimeInexistenteException e){
+                    System.out.println(e.getMessage());
+                }
 	}
 	
 	public TimeAbstrato buscaTime(int i) {

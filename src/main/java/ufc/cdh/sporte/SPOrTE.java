@@ -1,6 +1,7 @@
 package ufc.cdh.sporte;
 
 
+import ufc.cdh.sporte.controladores.ControladorTimes;
 import ufc.cdh.sporte.times.*;
 import ufc.cdh.sporte.torneio.*;
 
@@ -16,7 +17,7 @@ public class SPOrTE {
     	
     	//CRIAÇÃO DE TIMES E ADIÇÃO NO VETOR
     	isSeeded = false;
-    	VectorTimes times1 = new VectorTimes();
+    	ControladorTimes times1 = new ControladorTimes(new VectorTimes());
     	
     	TimeNaoSeeded time1 = new TimeNaoSeeded("PRX");
     	times1.inserirTime(time1);
@@ -44,7 +45,7 @@ public class SPOrTE {
        
         
         //CRIA TORNEIO E GERA AS CHAVES
-        Torneio t1 = new EliminacaoDupla("torneio1",times1,isSeeded);
+        Torneio t1 = new EliminacaoDupla("torneio1",times1.getTimes(),isSeeded);
         t1.geraChave();
         Chave bracket1 = t1.getChave();
         
@@ -95,7 +96,7 @@ public class SPOrTE {
     	
     	//CRIAÇÃO DE TIMES E ADIÇÃO NO VETOR
     	isSeeded = true;    	
-    	VectorTimes times2 = new VectorTimes();
+    	ControladorTimes times2 = new ControladorTimes(new VectorTimes());
     	    	
     	TimeSeeded time9 = new TimeSeeded("PRX",8);
     	times2.inserirTime(time9);
@@ -123,7 +124,7 @@ public class SPOrTE {
         
         
         //CRIA TORNEIO E GERA AS CHAVES
-    	Torneio t2 = new EliminacaoSimples("torneio2",times2, isSeeded);
+    	Torneio t2 = new EliminacaoSimples("torneio2",times2.getTimes(), isSeeded);
     	t2.geraChave();
     	Chave bracket2 = t2.getChave();
     	
