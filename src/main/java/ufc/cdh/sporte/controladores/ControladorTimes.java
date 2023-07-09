@@ -14,10 +14,12 @@ public class ControladorTimes implements Serializable{
 		this.times = times;
 	}
 	
+	//retorna o vetor de times
 	public VectorTimes getTimes() {
 		return this.times;
 	}
 	
+	//insere um time no vetor de times
 	public void inserirTime(TimeAbstrato time) {
 		try{
                     times.inserirTime(time);
@@ -27,6 +29,7 @@ public class ControladorTimes implements Serializable{
                 }
 	}
 	
+	//remove um time do vetor de times
 	public void removerTime(TimeAbstrato time) {
 		try{
                     times.removerTime(time);
@@ -36,14 +39,17 @@ public class ControladorTimes implements Serializable{
                 }
 	}
 	
+	//busca um time pela posição no vetor
 	public TimeAbstrato buscaTime(int i) {
 		return times.buscaTime(i);
 	}
 	
+	//utiliza o nome do time para verificar se ele ja foi cadstrado	
 	public boolean timeExiste(String nome) {
 		return times.timeExiste(nome);
 	}
 	
+	//embaralha os times no vetor
 	public Vector<TimeAbstrato> embaralhaTimes(){
 		return times.embaralhaTimes();
 	}
@@ -52,6 +58,7 @@ public class ControladorTimes implements Serializable{
 		times.ordenaTimes(times.getTimes());
 	}
 	
+	//ordena os times do vetor pelo seed
 	public int numeroDeTimes(){
 		return times.numeroDeTimes();
 	}	
