@@ -334,8 +334,8 @@
             </Component>
             <Component class="javax.swing.JLabel" name="timeIcone">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Downloads\icon.png"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.ImageIcon(System.getProperty(&quot;user.dir&quot;) + &quot;\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png&quot;)" type="code"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xcd;cone do time"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>

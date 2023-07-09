@@ -16,7 +16,6 @@ import javax.swing.filechooser.FileNameExtensionFilter;
  * @author main
  */
 public class CriaTimes extends javax.swing.JFrame {
-    ImageIcon timeIconePlaceholder = new ImageIcon("teamIcon.png");
 
     public CriaTimes() {
         initComponents();
@@ -134,7 +133,7 @@ public class CriaTimes extends javax.swing.JFrame {
         participanteNome6.setForeground(new java.awt.Color(153, 153, 153));
         participanteNome6.setText("Nome do participante");
 
-        timeIcone.setIcon(new javax.swing.ImageIcon("D:\\Downloads\\icon.png")); // NOI18N
+        timeIcone.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png"));
         timeIcone.setText("Ícone do time");
         timeIcone.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         timeIcone.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -254,6 +253,8 @@ public class CriaTimes extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         JOptionPane.showMessageDialog(null, "Cadastrou!");
+        new ExibeChavesSingle().setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
