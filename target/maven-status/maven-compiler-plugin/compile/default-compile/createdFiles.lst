@@ -44,6 +44,7 @@ TesteUI\SetScoreFrame$2.class
 ufc\cdh\sporte\organizadordetimes\times\iTime.class
 ufc\cdh\sporte\TorneioHub$2.class
 TesteUI\TournamentHubPage$3.class
+ufc\cdh\sporte\ExibeChavesSingle$2.class
 ufc\cdh\sporte\EditaPartida$1.class
 ufc\cdh\sporte\organizadordetimes\participantes\Coach.class
 ufc\cdh\sporte\NovoTorneio$1.class
@@ -55,6 +56,7 @@ ufc\cdh\sporte\ExibeChavesSingle$1.class
 ufc\cdh\sporte\ExibeChavesDouble.class
 TesteUI\TeamCreationFrame$1.class
 ufc\cdh\sporte\organizadordetimes\times\TimeAbstrato.class
+ufc\cdh\sporte\Partida.class
 ufc\cdh\sporte\EditaPartida.class
 TesteUI\NewTournamentFrame$1.class
 ufc\cdh\sporte\CriaTimes$2.class
