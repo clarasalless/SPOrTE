@@ -1,12 +1,13 @@
 package ufc.cdh.sporte.torneio;
 
+import java.io.Serializable;
 import ufc.cdh.sporte.partida.*;
 import ufc.cdh.sporte.times.VectorTimes;
 import ufc.cdh.sporte.times.excecao.TimeExistenteException;
 import ufc.cdh.sporte.times.excecao.TimesInsuficientesException;
 
 
-public class EliminacaoSimples extends Torneio {
+public class EliminacaoSimples extends Torneio{
     public EliminacaoSimples(String nome,VectorTimes times,boolean isSeeded){
         super(nome, times, isSeeded);
         this.bracket = new Chave();

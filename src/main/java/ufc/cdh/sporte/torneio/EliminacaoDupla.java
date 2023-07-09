@@ -1,9 +1,10 @@
 package ufc.cdh.sporte.torneio;
 
+import java.io.Serializable;
 import ufc.cdh.sporte.partida.*;
 import ufc.cdh.sporte.times.VectorTimes;
 
-public class EliminacaoDupla extends Torneio {
+public class EliminacaoDupla extends Torneio{
 	
 	public EliminacaoDupla(String nome,VectorTimes times,boolean isSeeded){
             super(nome,times, isSeeded);

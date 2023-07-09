@@ -1,10 +1,11 @@
 package ufc.cdh.sporte.torneio;
 
+import java.io.Serializable;
 import ufc.cdh.sporte.controladores.*;
 import ufc.cdh.sporte.partida.PartidaAbstrata;
 import ufc.cdh.sporte.times.*;
 
-public abstract class Torneio {
+public abstract class Torneio implements Serializable{
 	private String nome;
 	private ControladorTimes contTimes;
 	private ControladorPartidas contPartidas;

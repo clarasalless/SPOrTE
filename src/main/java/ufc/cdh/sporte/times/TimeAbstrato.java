@@ -1,5 +1,6 @@
 package ufc.cdh.sporte.times;
 
+import java.io.Serializable;
 import java.util.Vector;
 
 import ufc.cdh.sporte.participantes.Coach;
@@ -8,7 +9,7 @@ import ufc.cdh.sporte.participantes.exceptions.CoachExistenteException;
 import ufc.cdh.sporte.participantes.exceptions.JogadorInexistenteException;
 import ufc.cdh.sporte.participantes.exceptions.JogadorRepetidoException;
 
-public abstract class TimeAbstrato implements iTime{
+public abstract class TimeAbstrato implements iTime, Serializable{
     String nome;
     Vector<Jogador> jogadores;
     Coach coach;

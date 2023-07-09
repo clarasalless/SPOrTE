@@ -1,10 +1,11 @@
 package ufc.cdh.sporte.torneio;
 
+import java.io.Serializable;
 import java.util.Vector;
 
 import ufc.cdh.sporte.partida.PartidaAbstrata;
 
-public class Chave {
+public class Chave implements Serializable{
 	private Vector<PartidaAbstrata> partidas;
 	
 	//chave funciona como um repositório de partidas!!

@@ -7,13 +7,16 @@ ufc\cdh\sporte\torneio\EliminacaoSimples.class
 ufc\cdh\sporte\partida\VectorPartidas.class
 ufc\cdh\sporte\times\excecao\TimeInexistenteException.class
 ufc\cdh\sporte\times\VectorTimes.class
+ufc\cdh\sporte\participantes\exceptions\JogadorInexistenteException.class
 ufc\cdh\sporte\times\excecao\TimeExistenteException.class
 ufc\cdh\sporte\SPOrTE.class
 ufc\cdh\sporte\controladores\ControladorPartidas.class
 ufc\cdh\sporte\times\TimeAbstrato.class
+ufc\cdh\sporte\participantes\exceptions\CoachExistenteException.class
 ufc\cdh\sporte\torneio\Torneio.class
 ufc\cdh\sporte\participantes\Jogador.class
 ufc\cdh\sporte\partida\PartidaSingleElimination.class
+ufc\cdh\sporte\serializador\Serializador.class
 ufc\cdh\sporte\torneio\Chave.class
 ufc\cdh\sporte\torneio\EliminacaoDupla.class
 ufc\cdh\sporte\participantes\Participante.class

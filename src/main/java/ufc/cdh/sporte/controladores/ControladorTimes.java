@@ -1,12 +1,13 @@
 package ufc.cdh.sporte.controladores;
 
+import java.io.Serializable;
 import java.util.Vector;
 
 import ufc.cdh.sporte.times.*;
 import ufc.cdh.sporte.times.excecao.TimeExistenteException;
 import ufc.cdh.sporte.times.excecao.TimeInexistenteException;
 
-public class ControladorTimes {
+public class ControladorTimes implements Serializable{
 	private VectorTimes times;
 	
 	public ControladorTimes(VectorTimes times) {

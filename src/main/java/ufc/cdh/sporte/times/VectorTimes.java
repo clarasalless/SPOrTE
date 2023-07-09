@@ -1,11 +1,12 @@
 package ufc.cdh.sporte.times;
 
+import java.io.Serializable;
 import java.util.Collections;
 import java.util.Vector;
 import ufc.cdh.sporte.times.excecao.TimeExistenteException;
 import ufc.cdh.sporte.times.excecao.TimeInexistenteException;
 
-public class VectorTimes {
+public class VectorTimes implements Serializable{
 	private Vector<TimeAbstrato> times;
 	
 	public VectorTimes() {

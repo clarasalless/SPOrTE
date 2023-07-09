@@ -2,6 +2,7 @@ package ufc.cdh.sporte;
 
 
 import ufc.cdh.sporte.controladores.ControladorTimes;
+import ufc.cdh.sporte.serializador.Serializador;
 import ufc.cdh.sporte.times.*;
 import ufc.cdh.sporte.torneio.*;
 
@@ -45,7 +46,11 @@ public class SPOrTE {
        
         
         //CRIA TORNEIO E GERA AS CHAVES
+       
         Torneio t1 = new EliminacaoDupla("torneio1",times1.getTimes(),isSeeded);
+        Serializador ser = new Serializador();
+        ser.Serializar(t1);
+        t1 = ser.Desserializar();
         t1.geraChave();
         Chave bracket1 = t1.getChave();
         
@@ -73,7 +78,9 @@ public class SPOrTE {
         System.out.println("--------------------------------");
         System.out.println("Rodadas Seguintes");
         System.out.println("--------------------------------");
-        
+        ser.Serializar(t1);
+        t1 = ser.Desserializar();
+        bracket1 = t1.getChave();
         for(int i = 5; i <= 14; i++) {
         	bracket1.buscaPartida(i).setTimeA();
         	bracket1.buscaPartida(i).setTimeB();

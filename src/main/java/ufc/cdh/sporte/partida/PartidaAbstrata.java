@@ -1,8 +1,9 @@
 package ufc.cdh.sporte.partida;
 
+import java.io.Serializable;
 import ufc.cdh.sporte.times.TimeAbstrato;
 
-public abstract class PartidaAbstrata {
+public abstract class PartidaAbstrata implements Serializable{
 	protected TimeAbstrato timeA = null;
 	protected TimeAbstrato timeB = null;
 	private TimeAbstrato vencedor = null;

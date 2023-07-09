@@ -1,10 +1,11 @@
 package ufc.cdh.sporte.partida;
 
+import java.io.Serializable;
 import java.util.Vector;
 
 import ufc.cdh.sporte.times.VectorTimes;
 
-public class VectorPartidas {
+public class VectorPartidas implements Serializable{
 	private Vector<PartidaAbstrata> partidas;
 	
 	public VectorPartidas(VectorTimes times) {
