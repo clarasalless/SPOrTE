@@ -23,7 +23,6 @@ ufc\cdh\sporte\participantes\exceptions\JogadorRepetidoException.class
 TesteUI\TournamentHubPage$3.class
 ufc\cdh\sporte\times\TimeSeeded.class
 ufc\cdh\sporte\controladores\ControladorTorneio.class
-ufc\cdh\sporte\EditaPartida$1.class
 ufc\cdh\sporte\partida\PartidaDoubleElimination.class
 ufc\cdh\sporte\NovoTorneio$1.class
 ufc\cdh\sporte\times\TimeNaoSeeded.class
@@ -37,7 +36,6 @@ ufc\cdh\sporte\times\excecao\TimeInexistenteException.class
 ufc\cdh\sporte\ExibeChavesDouble.class
 ufc\cdh\sporte\participantes\exceptions\JogadorInexistenteException.class
 TesteUI\TeamCreationFrame$1.class
-ufc\cdh\sporte\Partida.class
 ufc\cdh\sporte\EditaPartida.class
 TesteUI\NewTournamentFrame$1.class
 ufc\cdh\sporte\CriaTimes$2.class

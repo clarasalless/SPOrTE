@@ -248,11 +248,14 @@ public class CriaTimes extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+        if(timeNome1.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Insira um nome");
+            return;
+        }
         if(participanteNome1.getText().equals("") || participanteNome2.getText().equals("") || 
                 participanteNome3.getText().equals("") || participanteNome4.getText().equals("") || 
                 participanteNome5.getText().equals("")){
-            /*JOptionPane.showMessageDialog(null, "Jogadores Insuficientes!");*/
-            return;
+            JOptionPane.showMessageDialog(null, "Jogadores Insuficientes!");
         }
         if(torneio.getSeeded()){
             torneio.cadastrarTime(new TimeSeeded(timeNome1.getText(),10));
