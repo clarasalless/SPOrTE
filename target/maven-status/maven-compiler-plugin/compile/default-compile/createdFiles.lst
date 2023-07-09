@@ -22,7 +22,6 @@ ufc\cdh\sporte\participantes\exceptions\JogadorRepetidoException.class
 TesteUI\TournamentHubPage$3.class
 ufc\cdh\sporte\times\TimeSeeded.class
 ufc\cdh\sporte\controladores\ControladorTorneio.class
-ufc\cdh\sporte\EditaPartida$1.class
 ufc\cdh\sporte\partida\PartidaDoubleElimination.class
 ufc\cdh\sporte\NovoTorneio$1.class
 ufc\cdh\sporte\times\TimeNaoSeeded.class

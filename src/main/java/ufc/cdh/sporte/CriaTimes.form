@@ -338,6 +338,1861 @@
             </Component>
           </SubComponents>
         </Container>
+        <Container class="javax.swing.JPanel" name="jPanel12">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Time 1">
+                <Property name="tabTitle" type="java.lang.String" value="Time 1"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="513" max="32767" attributes="0"/>
+                              <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="timeIcone1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="nomeLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane2" alignment="0" pref="400" max="32767" attributes="0"/>
+                                  <Component id="timeNome2" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="participanteNome10" min="-2" pref="241" max="-2" attributes="0"/>
+                                      <EmptySpace pref="93" max="32767" attributes="0"/>
+                                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="jLabel9" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="jLabel11" alignment="1" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="participanteNome9" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                                          <Component id="participanteNome12" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel12" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel10" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="participanteNome7" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                                  <Component id="participanteNome8" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                                  <Component id="participanteNome11" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="35" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButton3" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="nomeLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="timeNome2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="74" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="timeIcone1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel9" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="participanteNome7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="participanteNome9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mudar &#xed;cone"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="nomeLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome do Time:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="timeNome2">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o (opcional):"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea2">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="3"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="T&#xe9;cnico: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 3: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 1: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 4: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 2: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 5: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome10">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome11">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar Time"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="timeIcone1">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.ImageIcon(System.getProperty(&quot;user.dir&quot;) + &quot;\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png&quot;)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#xcd;cone do time"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel13">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Time 1">
+                <Property name="tabTitle" type="java.lang.String" value="Time 1"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="513" max="32767" attributes="0"/>
+                              <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="timeIcone2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="nomeLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane3" alignment="0" pref="400" max="32767" attributes="0"/>
+                                  <Component id="timeNome3" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="participanteNome16" min="-2" pref="241" max="-2" attributes="0"/>
+                                      <EmptySpace pref="93" max="32767" attributes="0"/>
+                                      <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="jLabel16" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="jLabel18" alignment="1" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="participanteNome15" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                                          <Component id="participanteNome18" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel19" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel17" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="participanteNome13" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                                  <Component id="participanteNome14" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                                  <Component id="participanteNome17" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="35" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButton5" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton6" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="nomeLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="timeNome3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane3" min="-2" pref="74" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="timeIcone2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel16" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="participanteNome13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome18" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="participanteNome15" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome14" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome17" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mudar &#xed;cone"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="nomeLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome do Time:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="timeNome3">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o (opcional):"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea3">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="3"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="T&#xe9;cnico: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 3: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel18">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 1: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel19">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 4: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel20">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 2: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel21">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 5: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome14">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome15">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome16">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome17">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar Time"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome18">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="timeIcone2">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.ImageIcon(System.getProperty(&quot;user.dir&quot;) + &quot;\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png&quot;)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#xcd;cone do time"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel14">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Time 1">
+                <Property name="tabTitle" type="java.lang.String" value="Time 1"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jButton7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="513" max="32767" attributes="0"/>
+                              <Component id="jButton8" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="timeIcone3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="nomeLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel22" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane4" alignment="0" pref="400" max="32767" attributes="0"/>
+                                  <Component id="timeNome4" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="participanteNome22" min="-2" pref="241" max="-2" attributes="0"/>
+                                      <EmptySpace pref="93" max="32767" attributes="0"/>
+                                      <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="jLabel23" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="jLabel25" alignment="1" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="participanteNome21" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                                          <Component id="participanteNome24" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel26" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel24" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="participanteNome19" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                                  <Component id="participanteNome20" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                                  <Component id="participanteNome23" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="35" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButton7" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton8" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="nomeLabel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="timeNome4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane4" min="-2" pref="74" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="timeIcone3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel23" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="participanteNome19" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome24" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="participanteNome21" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome20" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel26" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome22" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome23" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mudar &#xed;cone"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="nomeLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome do Time:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="timeNome4">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel22">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o (opcional):"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea4">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="3"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="T&#xe9;cnico: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 3: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel25">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 1: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel26">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 4: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel27">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 2: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel28">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 5: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome19">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome20">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome21">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome22">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome23">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar Time"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton8ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome24">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="timeIcone3">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.ImageIcon(System.getProperty(&quot;user.dir&quot;) + &quot;\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png&quot;)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#xcd;cone do time"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel15">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Time 1">
+                <Property name="tabTitle" type="java.lang.String" value="Time 1"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jButton9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="513" max="32767" attributes="0"/>
+                              <Component id="jButton10" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="timeIcone4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="nomeLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel29" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane5" alignment="0" pref="400" max="32767" attributes="0"/>
+                                  <Component id="timeNome5" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel34" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="participanteNome28" min="-2" pref="241" max="-2" attributes="0"/>
+                                      <EmptySpace pref="93" max="32767" attributes="0"/>
+                                      <Component id="jLabel35" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="jLabel30" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="jLabel32" alignment="1" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="participanteNome27" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                                          <Component id="participanteNome30" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel33" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel31" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="participanteNome25" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                                  <Component id="participanteNome26" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                                  <Component id="participanteNome29" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="35" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButton9" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton10" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="nomeLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="timeNome5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane5" min="-2" pref="74" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="timeIcone4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel30" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="participanteNome25" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel31" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome30" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="participanteNome27" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome26" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel34" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome28" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel35" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome29" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mudar &#xed;cone"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton9ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="nomeLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome do Time:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="timeNome5">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel29">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o (opcional):"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea5">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="3"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel30">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="T&#xe9;cnico: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel31">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 3: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel32">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 1: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel33">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 4: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel34">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 2: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel35">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 5: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome25">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome26">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome27">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome28">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome29">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar Time"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton10ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome30">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="timeIcone4">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.ImageIcon(System.getProperty(&quot;user.dir&quot;) + &quot;\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png&quot;)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#xcd;cone do time"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel16">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Time 1">
+                <Property name="tabTitle" type="java.lang.String" value="Time 1"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jButton11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="513" max="32767" attributes="0"/>
+                              <Component id="jButton12" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="timeIcone5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="nomeLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel36" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane6" alignment="0" pref="400" max="32767" attributes="0"/>
+                                  <Component id="timeNome6" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel41" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="participanteNome34" min="-2" pref="241" max="-2" attributes="0"/>
+                                      <EmptySpace pref="93" max="32767" attributes="0"/>
+                                      <Component id="jLabel42" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="jLabel37" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="jLabel39" alignment="1" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="participanteNome33" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                                          <Component id="participanteNome36" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel40" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel38" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="participanteNome31" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                                  <Component id="participanteNome32" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                                  <Component id="participanteNome35" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="35" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButton11" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton12" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="nomeLabel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="timeNome6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel36" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane6" min="-2" pref="74" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="timeIcone5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel37" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="participanteNome31" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel38" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome36" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="participanteNome33" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel39" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome32" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel40" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel41" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome34" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel42" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome35" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mudar &#xed;cone"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton11ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="nomeLabel5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome do Time:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="timeNome6">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel36">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o (opcional):"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea6">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="3"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel37">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="T&#xe9;cnico: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel38">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 3: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel39">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 1: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel40">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 4: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel41">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 2: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel42">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 5: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome31">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome32">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome33">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome34">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome35">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar Time"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton12ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome36">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="timeIcone5">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.ImageIcon(System.getProperty(&quot;user.dir&quot;) + &quot;\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png&quot;)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#xcd;cone do time"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel17">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Time 1">
+                <Property name="tabTitle" type="java.lang.String" value="Time 1"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jButton13" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="513" max="32767" attributes="0"/>
+                              <Component id="jButton14" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="timeIcone6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="nomeLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel43" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane7" alignment="0" pref="400" max="32767" attributes="0"/>
+                                  <Component id="timeNome7" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel48" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="participanteNome40" min="-2" pref="241" max="-2" attributes="0"/>
+                                      <EmptySpace pref="93" max="32767" attributes="0"/>
+                                      <Component id="jLabel49" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="jLabel44" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="jLabel46" alignment="1" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="participanteNome39" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                                          <Component id="participanteNome42" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel47" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel45" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="participanteNome37" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                                  <Component id="participanteNome38" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                                  <Component id="participanteNome41" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="35" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButton13" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton14" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="nomeLabel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="timeNome7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane7" min="-2" pref="74" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="timeIcone6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel44" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="participanteNome37" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel45" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome42" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="participanteNome39" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel46" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome38" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel47" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel48" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome40" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel49" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome41" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton13">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mudar &#xed;cone"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton13ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="nomeLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome do Time:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="timeNome7">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel43">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o (opcional):"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea7">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="3"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel44">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="T&#xe9;cnico: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel45">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 3: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel46">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 1: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel47">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 4: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel48">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 2: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel49">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 5: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome37">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome38">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome39">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome40">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome41">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton14">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar Time"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton14ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome42">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="timeIcone6">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.ImageIcon(System.getProperty(&quot;user.dir&quot;) + &quot;\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png&quot;)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#xcd;cone do time"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel18">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Time 1">
+                <Property name="tabTitle" type="java.lang.String" value="Time 1"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jButton15" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="513" max="32767" attributes="0"/>
+                              <Component id="jButton16" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="timeIcone7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="nomeLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel50" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane8" alignment="0" pref="400" max="32767" attributes="0"/>
+                                  <Component id="timeNome8" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel55" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="participanteNome46" min="-2" pref="241" max="-2" attributes="0"/>
+                                      <EmptySpace pref="93" max="32767" attributes="0"/>
+                                      <Component id="jLabel56" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="jLabel51" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="jLabel53" alignment="1" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="participanteNome45" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                                          <Component id="participanteNome48" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel54" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel52" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="participanteNome43" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                                  <Component id="participanteNome44" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                                  <Component id="participanteNome47" alignment="0" min="-2" pref="241" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="35" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButton15" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton16" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="nomeLabel7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="timeNome8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel50" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane8" min="-2" pref="74" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="timeIcone7" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel51" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="participanteNome43" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel52" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome48" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="participanteNome45" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel53" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome44" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel54" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel55" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome46" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel56" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="participanteNome47" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton15">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mudar &#xed;cone"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton15ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="nomeLabel7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome do Time:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="timeNome8">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel50">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o (opcional):"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane8">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea8">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="3"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel51">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="T&#xe9;cnico: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel52">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 3: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel53">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 1: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel54">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 4: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel55">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 2: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel56">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jogador 5: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome43">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome44">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome45">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome46">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome47">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton16">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastrar Time"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton16ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="participanteNome48">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nome do participante"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="timeIcone7">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.ImageIcon(System.getProperty(&quot;user.dir&quot;) + &quot;\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png&quot;)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#xcd;cone do time"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
       </SubComponents>
     </Container>
   </SubComponents>

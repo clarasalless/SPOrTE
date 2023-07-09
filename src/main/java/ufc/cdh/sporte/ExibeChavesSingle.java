@@ -4,6 +4,8 @@
  */
 package ufc.cdh.sporte;
 
+import ufc.cdh.sporte.partida.PartidaAbstrata;
+
 /**
  *
  * @author main
@@ -495,7 +497,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
         // TODO add your handling code here:
-        new EditaPartida().setVisible(true);
+        //EditaPartida editaPartida1 = new EditaPartida();
     }//GEN-LAST:event_jButton14ActionPerformed
 
     /**
