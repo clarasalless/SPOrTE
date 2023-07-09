@@ -243,6 +243,8 @@ public class CriaTimes extends javax.swing.JFrame {
             .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 426, Short.MAX_VALUE)
         );
 
+        jTabbedPane1.getAccessibleContext().setAccessibleName("Time 2");
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
