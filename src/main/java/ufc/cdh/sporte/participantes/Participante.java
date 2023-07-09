@@ -7,18 +7,10 @@ public abstract class Participante implements Serializable{
     String nome;
     TimeAbstrato time;
     int idade;
-    public Participante(String nome, TimeAbstrato time, int idade){
+    public Participante(String nome){
         this.nome = nome;
-        this.time = time;
-        this.idade = idade;
     }
     public String getNome(){
         return nome;
-    }
-    public TimeAbstrato getTime(){
-        return time;
-    }
-    public int getIdade(){
-        return idade;
     }
 }

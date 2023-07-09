@@ -45,7 +45,7 @@ public abstract class TimeAbstrato implements iTime, Serializable{
     }
     
     public void CadastrarCoach(Coach coach) throws CoachExistenteException{
-        if(coach != null){
+        if(coach.getNome().equals("")){
             throw new CoachExistenteException(coach);
         }
         this.coach = coach;

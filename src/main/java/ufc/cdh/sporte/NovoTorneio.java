@@ -4,6 +4,12 @@
  */
 package ufc.cdh.sporte;
 
+import javax.swing.JOptionPane;
+import ufc.cdh.sporte.times.VectorTimes;
+import ufc.cdh.sporte.torneio.EliminacaoDupla;
+import ufc.cdh.sporte.torneio.EliminacaoSimples;
+import ufc.cdh.sporte.torneio.Torneio;
+
 /**
  *
  * @author main
@@ -62,7 +68,7 @@ public class NovoTorneio extends javax.swing.JFrame {
         SetPlayoff.setText("Formação de chaves :");
 
         SetSeededGroup.add(SeededTrue);
-        SeededTrue.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
+        SeededTrue.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         SeededTrue.setText("Seeded");
 
         SetSeededGroup.add(SeededFalse);
@@ -180,7 +186,28 @@ public class NovoTorneio extends javax.swing.JFrame {
 
     private void CriaNovoTorneioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CriaNovoTorneioActionPerformed
         // TODO add your handling code here:
-        CriaTimes criaTimes = new CriaTimes();
+        Torneio torneio;
+        if(NomeNovoTorneio.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Insira um nome");
+            return;
+        }
+        if(!SeededTrue.isSelected() && !SeededFalse.isSelected()){
+            JOptionPane.showMessageDialog(null, "Escolha uma opção de colocação");
+            return;
+        }
+        if(!PlayoffTrue.isSelected() && !PlayoffFalse.isSelected()){
+            JOptionPane.showMessageDialog(null, "Escolha um formato de chave");
+            return;
+        }
+        if(PlayoffTrue.isSelected()){
+            torneio = new EliminacaoSimples(NomeNovoTorneio.getText(),SeededTrue.isSelected());
+        }
+        else{
+            JOptionPane.showMessageDialog(null, "Vem aí");
+            //torneio = new EliminacaoDupla(NomeNovoTorneio.getText(),SeededTrue.isSelected());
+            return;
+        }
+        CriaTimes criaTimes = new CriaTimes(torneio);
         criaTimes.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_CriaNovoTorneioActionPerformed

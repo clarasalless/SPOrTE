@@ -41,6 +41,13 @@ public class VectorTimes implements Serializable{
 		return times.get(i);
 	}
 	
+        public TimeAbstrato getTime(String nome) {
+		for(TimeAbstrato time : times) {
+			if(time.getNome().equals(nome))
+                            return time;
+		}
+                return null;
+	}
 	//verifica se existe algum time com o nome passado no repositório
 	public boolean timeExiste(String nome) {
 		for(TimeAbstrato time : times) {

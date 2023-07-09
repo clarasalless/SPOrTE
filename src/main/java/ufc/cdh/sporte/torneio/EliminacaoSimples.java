@@ -8,8 +8,8 @@ import ufc.cdh.sporte.times.excecao.TimesInsuficientesException;
 
 
 public class EliminacaoSimples extends Torneio{
-    public EliminacaoSimples(String nome,VectorTimes times,boolean isSeeded){
-        super(nome, times, isSeeded);
+    public EliminacaoSimples(String nome,boolean isSeeded){
+        super(nome, isSeeded);
         this.bracket = new Chave();
     }
     

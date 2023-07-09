@@ -10,14 +10,22 @@ import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.filechooser.FileNameExtensionFilter;
+import ufc.cdh.sporte.participantes.Coach;
+import ufc.cdh.sporte.participantes.Jogador;
+import ufc.cdh.sporte.participantes.exceptions.CoachExistenteException;
+import ufc.cdh.sporte.participantes.exceptions.JogadorRepetidoException;
+import ufc.cdh.sporte.times.TimeNaoSeeded;
+import ufc.cdh.sporte.times.TimeSeeded;
+import ufc.cdh.sporte.torneio.Torneio;
 
 /**
  *
  * @author main
  */
 public class CriaTimes extends javax.swing.JFrame {
-
-    public CriaTimes() {
+    Torneio torneio;
+    public CriaTimes(Torneio torneio) {
+        this.torneio = torneio;
         initComponents();
     }
 
@@ -102,25 +110,17 @@ public class CriaTimes extends javax.swing.JFrame {
 
         jLabel7.setText("Jogador 5: ");
 
-        participanteNome1.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
-        participanteNome1.setForeground(new java.awt.Color(153, 153, 153));
-        participanteNome1.setText("Nome do participante");
+        participanteNome3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome3ActionPerformed(evt);
+            }
+        });
 
-        participanteNome2.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
-        participanteNome2.setForeground(new java.awt.Color(153, 153, 153));
-        participanteNome2.setText("Nome do participante");
-
-        participanteNome3.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
-        participanteNome3.setForeground(new java.awt.Color(153, 153, 153));
-        participanteNome3.setText("Nome do participante");
-
-        participanteNome4.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
-        participanteNome4.setForeground(new java.awt.Color(153, 153, 153));
-        participanteNome4.setText("Nome do participante");
-
-        participanteNome5.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
-        participanteNome5.setForeground(new java.awt.Color(153, 153, 153));
-        participanteNome5.setText("Nome do participante");
+        participanteNome4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome4ActionPerformed(evt);
+            }
+        });
 
         jButton2.setText("Cadastrar Time");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -128,10 +128,6 @@ public class CriaTimes extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-
-        participanteNome6.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
-        participanteNome6.setForeground(new java.awt.Color(153, 153, 153));
-        participanteNome6.setText("Nome do participante");
 
         timeIcone.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png"));
         timeIcone.setText("Ícone do time");
@@ -252,8 +248,40 @@ public class CriaTimes extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+        if(participanteNome1.getText().equals("") || participanteNome2.getText().equals("") || 
+                participanteNome3.getText().equals("") || participanteNome4.getText().equals("") || 
+                participanteNome5.getText().equals("")){
+            /*JOptionPane.showMessageDialog(null, "Jogadores Insuficientes!");*/
+            return;
+        }
+        if(torneio.getSeeded()){
+            torneio.cadastrarTime(new TimeSeeded(timeNome1.getText(),10));
+        } 
+        else{
+            torneio.cadastrarTime(new TimeNaoSeeded(timeNome1.getText()));
+        }
+        try{
+            torneio.getTime(timeNome1.getText()).CadastrarJogador(new Jogador(participanteNome1.getText()));
+            torneio.getTime(timeNome1.getText()).CadastrarJogador(new Jogador(participanteNome2.getText()));
+            torneio.getTime(timeNome1.getText()).CadastrarJogador(new Jogador(participanteNome3.getText()));
+            torneio.getTime(timeNome1.getText()).CadastrarJogador(new Jogador(participanteNome4.getText()));
+            torneio.getTime(timeNome1.getText()).CadastrarJogador(new Jogador(participanteNome5.getText()));
+        }
+        catch(JogadorRepetidoException e){
+            torneio.removerTime(torneio.getTime(timeNome1.getText()));
+            JOptionPane.showMessageDialog(null, "Jogadores repetidos encontrados!");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome1.getText()).CadastrarCoach(new Coach(participanteNome6.getText()));
+        }
+        catch (CoachExistenteException e){
+            torneio.removerTime(torneio.getTime(timeNome1.getText()));
+            JOptionPane.showMessageDialog(null, "Coach já atribuído!");
+            return;
+        }
         JOptionPane.showMessageDialog(null, "Cadastrou!");
-        new ExibeChavesSingle().setVisible(true);
+        new ExibeChavesSingle(torneio).setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton2ActionPerformed
 
@@ -269,6 +297,14 @@ public class CriaTimes extends javax.swing.JFrame {
             displaySelectedImage(selectedFile);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void participanteNome3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome3ActionPerformed
+
+    private void participanteNome4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome4ActionPerformed
     private void displaySelectedImage(File imageFile) {
         ImageIcon imageIcon = new ImageIcon(imageFile.getAbsolutePath());
         Image scaledImage = imageIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);

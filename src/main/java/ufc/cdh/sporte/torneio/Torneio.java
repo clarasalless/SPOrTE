@@ -11,11 +11,13 @@ public abstract class Torneio implements Serializable{
 	private ControladorPartidas contPartidas;
 	protected Chave bracket;
 	protected VectorTimes times;
+        private boolean isSeeded;
         
-	public Torneio(String nome, VectorTimes times,boolean isSeeded){
+	public Torneio(String nome,boolean isSeeded){
 		this.nome = nome;
-		this.times = times;
+		this.times = new VectorTimes();
 		this.bracket = new Chave();
+                this.isSeeded = isSeeded;
 		
 		if(isSeeded){
 			times.ordenaTimes(times.getTimes());
@@ -42,6 +44,10 @@ public abstract class Torneio implements Serializable{
 	public Chave getChave() {
 		return this.bracket;
 	}
+        
+        public boolean getSeeded(){
+            return isSeeded;
+        }
 	
 	//cadastra um time no repositorio de times do torneio
 	public void cadastrarTime(TimeAbstrato time) {
@@ -54,7 +60,11 @@ public abstract class Torneio implements Serializable{
 	}
 	
 	//procura um time pela posição em que ele se encontra no vetor 
-	public TimeAbstrato buscaTime(int i) {
+	public TimeAbstrato getTime(String nome) {
+		return contTimes.getTime(nome);
+	}
+        
+        public TimeAbstrato buscaTime(int i) {
 		return contTimes.buscaTime(i);
 	}
 	

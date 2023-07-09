@@ -44,6 +44,9 @@ public class ControladorTimes implements Serializable{
 		return times.buscaTime(i);
 	}
 	
+        public TimeAbstrato getTime(String nome) {
+		return times.getTime(nome);
+	}
 	//utiliza o nome do time para verificar se ele ja foi cadstrado	
 	public boolean timeExiste(String nome) {
 		return times.timeExiste(nome);
