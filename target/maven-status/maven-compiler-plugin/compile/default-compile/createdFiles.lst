@@ -54,6 +54,7 @@ ufc\cdh\sporte\TorneioHub.class
 ufc\cdh\sporte\torneio\EliminacaoDupla.class
 TesteUI\SetScoreFrame$1.class
 ufc\cdh\sporte\participantes\Participante.class
+ufc\cdh\sporte\CriaTimes$3.class
 ufc\cdh\sporte\times\iTime.class
 ufc\cdh\sporte\partida\PartidaInit.class
 ufc\cdh\sporte\participantes\Coach.class
