@@ -8,6 +8,7 @@ package TesteUI;
  *
  * @author main
  */
+import TesteUI.SetScoreFrame;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

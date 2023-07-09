@@ -42,9 +42,6 @@ public class NovoTorneio extends javax.swing.JFrame {
         PlayoffFalse = new javax.swing.JRadioButton();
         NomeNovoTorneio = new javax.swing.JTextField();
         CriaNovoTorneio = new javax.swing.JButton();
-        jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -150,18 +147,10 @@ public class NovoTorneio extends javax.swing.JFrame {
                 .addGroup(FormNovoTorneioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(PlayoffTrue)
                     .addComponent(PlayoffFalse))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
+                .addGap(40, 40, 40)
                 .addComponent(CriaNovoTorneio, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(41, 41, 41))
+                .addContainerGap(40, Short.MAX_VALUE))
         );
-
-        jMenu1.setText("File");
-        jMenuBar1.add(jMenu1);
-
-        jMenu2.setText("Edit");
-        jMenuBar1.add(jMenu2);
-
-        setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -216,9 +205,6 @@ public class NovoTorneio extends javax.swing.JFrame {
     private javax.swing.JLabel SetSeeded;
     private javax.swing.ButtonGroup SetSeededGroup;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
 }

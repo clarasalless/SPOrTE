@@ -4,22 +4,34 @@
  */
 package ufc.cdh.sporte;
 
+<<<<<<< HEAD
 import ufc.cdh.sporte.partida.PartidaAbstrata;
 import ufc.cdh.sporte.times.TimeAbstrato;
+=======
+import ufc.cdh.sporte.organizadordetimes.times.TimeAbstrato;
+import ufc.cdh.sporte.torneio.AbstractMatch;
+>>>>>>> b98069b8cf4a011b5473830ddc659ada7bef77b5
 
 /**
  *
  * @author main
  */
 public class Partida extends javax.swing.JPanel {
+<<<<<<< HEAD
     PartidaAbstrata partida;
     TimeAbstrato timeA;
     TimeAbstrato timeB;
+=======
+    AbstractMatch partida;
+    TimeAbstrato timeA = partida.getTeamA();
+    TimeAbstrato timeB = partida.getTeamB();
+>>>>>>> b98069b8cf4a011b5473830ddc659ada7bef77b5
 
     /**
      * Creates new form Partida
      * @param partida
      */
+<<<<<<< HEAD
     public Partida(PartidaAbstrata partida) {
         this.partida = partida;
         timeA = partida.getTimeA();
@@ -27,6 +39,11 @@ public class Partida extends javax.swing.JPanel {
         initComponents();
         jLabel1.setText(timeA.getNome());
         jLabel2.setText(timeB.getNome());
+=======
+    public Partida(AbstractMatch partida) {
+        this.partida = partida;
+        initComponents();
+>>>>>>> b98069b8cf4a011b5473830ddc659ada7bef77b5
     }
 
     /**
@@ -38,6 +55,7 @@ public class Partida extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+<<<<<<< HEAD
         jPanel1 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -71,38 +89,93 @@ public class Partida extends javax.swing.JPanel {
                 .addComponent(jLabel4)
                 .addGap(60, 60, 60))
         );
+=======
+        jPanel2 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+>>>>>>> b98069b8cf4a011b5473830ddc659ada7bef77b5
 
         jPanel2.setBackground(new java.awt.Color(204, 255, 204));
 
         jLabel1.setText("Time A");
 
+<<<<<<< HEAD
         jLabel3.setText("Placar A");
+=======
+        jLabel3.setText("PlacarA");
+>>>>>>> b98069b8cf4a011b5473830ddc659ada7bef77b5
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap(69, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel3)
                     .addComponent(jLabel1))
                 .addGap(64, 64, 64))
+=======
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(54, 54, 54)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel1))
+                .addContainerGap(54, Short.MAX_VALUE))
+>>>>>>> b98069b8cf4a011b5473830ddc659ada7bef77b5
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(104, 104, 104)
                 .addComponent(jLabel1)
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 108, Short.MAX_VALUE)
                 .addComponent(jLabel3)
                 .addGap(61, 61, 61))
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 84, Short.MAX_VALUE)
+                .addComponent(jLabel3)
+                .addGap(55, 55, 55))
+        );
+
+        jPanel3.setBackground(new java.awt.Color(204, 255, 204));
+
+        jLabel2.setText("Time B");
+
+        jLabel4.setText("PlacarB");
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGap(54, 54, 54)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel4)
+                    .addComponent(jLabel2))
+                .addContainerGap(53, Short.MAX_VALUE))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGap(104, 104, 104)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel4)
+                .addGap(53, 53, 53))
+>>>>>>> b98069b8cf4a011b5473830ddc659ada7bef77b5
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(60, 60, 60)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -118,6 +191,23 @@ public class Partida extends javax.swing.JPanel {
                     .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(45, 45, 45))
+=======
+            .addGroup(layout.createSequentialGroup()
+                .addGap(55, 55, 55)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 125, Short.MAX_VALUE)
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(55, 55, 55))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(53, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(52, 52, 52))
+>>>>>>> b98069b8cf4a011b5473830ddc659ada7bef77b5
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -127,7 +217,12 @@ public class Partida extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+<<<<<<< HEAD
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+=======
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+>>>>>>> b98069b8cf4a011b5473830ddc659ada7bef77b5
     // End of variables declaration//GEN-END:variables
 }
