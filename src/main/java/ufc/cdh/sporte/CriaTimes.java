@@ -130,8 +130,6 @@ public class CriaTimes extends javax.swing.JFrame {
             }
         });
 
-        participanteNome6.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
-        participanteNome6.setForeground(new java.awt.Color(153, 153, 153));
         participanteNome6.setText("Nome do participante");
 
         timeIcone.setIcon(new javax.swing.ImageIcon("D:\\Downloads\\icon.png")); // NOI18N
@@ -254,6 +252,10 @@ public class CriaTimes extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         JOptionPane.showMessageDialog(null, "Cadastrou!");
+       ExibeChavesSingle teste = new ExibeChavesSingle();
+       teste.setVisible(true);
+       this.setVisible(false);
+        
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
