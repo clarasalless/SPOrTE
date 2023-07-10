@@ -187,6 +187,7 @@ public class NovoTorneio extends javax.swing.JFrame {
     private void CriaNovoTorneioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CriaNovoTorneioActionPerformed
         // TODO add your handling code here:
         Torneio torneio;
+        //Torneio torneio;
         if(NomeNovoTorneio.getText().equals("")){
             JOptionPane.showMessageDialog(null, "Insira um nome");
             return;

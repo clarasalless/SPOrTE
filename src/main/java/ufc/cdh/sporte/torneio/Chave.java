@@ -15,7 +15,7 @@ public class Chave implements Serializable{
 	
 	//retorna o vetor de partidas
 	public Vector<PartidaAbstrata> getPartidas(){
-    	return partidas;
+            return partidas;
     }
 	
 	//insere um jogo na chave
@@ -27,8 +27,11 @@ public class Chave implements Serializable{
 	//busca um jogo pela id (numero)
 	public PartidaAbstrata buscaPartida(int id) {
 		for(PartidaAbstrata match : this.partidas) {
-			if(match.getID() == id)
+                    System.out.println(match.getID());
+                    System.out.println(id);
+			if(match.getID() == id){
 				return match;
+                        }
 		}
 		return null;
 	}
