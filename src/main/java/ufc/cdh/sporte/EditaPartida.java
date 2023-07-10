@@ -196,6 +196,18 @@ public class EditaPartida extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Insira um valor para a pontuação do segundo time");
             return;
         }
+        if(Integer.parseInt(jTextField1.getText())>2 || Integer.parseInt(jTextField1.getText())<0){
+            JOptionPane.showMessageDialog(null, "Insira um valor válido para a pontuação do primeiro time");
+            return;
+        }
+        if(Integer.parseInt(jTextField2.getText())>2 || Integer.parseInt(jTextField2.getText())<0){
+            JOptionPane.showMessageDialog(null, "Insira um valor válido para a pontuação do segundo time");
+            return;
+        }
+        if((Integer.parseInt(jTextField1.getText())+Integer.parseInt(jTextField2.getText()))>3){
+            JOptionPane.showMessageDialog(null, "Valor de placar inválido para melhor de 3");
+            return;
+        }
         partida.setPlacarA(Integer.parseInt(jTextField1.getText()));
         placarA.setText(jTextField1.getText());
         partida.setPlacarB(Integer.parseInt(jTextField2.getText()));
