@@ -64,7 +64,7 @@ public class VectorTimes implements Serializable{
 	}
 	
 	//ordena os times pelo seed (bubble sort)
-	public void ordenaTimes(Vector<TimeAbstrato> times) {
+	public void ordenaTimes() {
         int n = times.size();
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {

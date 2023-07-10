@@ -53,7 +53,7 @@ public class ControladorTimes implements Serializable{
 	}
 	
 	public void ordenaTimes() {
-		times.ordenaTimes(times.getTimes());
+		times.ordenaTimes();
 	}
 	
 	//ordena os times do vetor pelo seed

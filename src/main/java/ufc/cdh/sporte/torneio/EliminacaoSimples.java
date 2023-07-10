@@ -15,6 +15,12 @@ public class EliminacaoSimples extends Torneio{
     
 	@Override
 	public void geraChave() {
+            if(isSeeded){
+                times.ordenaTimes();
+            }
+            else{
+                times.embaralhaTimes();
+            }
 		try{
                     if(times.getTimes().size() < 8){
                         throw new TimesInsuficientesException(times);

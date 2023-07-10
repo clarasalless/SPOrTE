@@ -12,21 +12,13 @@ public abstract class Torneio implements Serializable{
 	private ControladorPartidas contPartidas;
 	protected Chave bracket;
 	protected VectorTimes times;
-        private boolean isSeeded;
+        protected boolean isSeeded;
         
 	public Torneio(String nome,boolean isSeeded){
 		this.nome = nome;
 		this.times = new VectorTimes();
 		this.bracket = new Chave();
-                this.isSeeded = isSeeded;
-		
-		if(isSeeded){
-			times.ordenaTimes(times.getTimes());
-        }
-		else{
-            times.embaralhaTimes();
-        }
-		
+                this.isSeeded = isSeeded;		
 		contTimes = new ControladorTimes(times);
 		contPartidas = new ControladorPartidas(bracket);
     }
