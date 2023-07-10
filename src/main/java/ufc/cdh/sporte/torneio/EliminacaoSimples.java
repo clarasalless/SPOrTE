@@ -27,6 +27,8 @@ public class EliminacaoSimples extends Torneio{
                     }
                     for(int i = 1; i <= 4; i++) {
                         PartidaAbstrata partida = new PartidaInit(i,this.times);
+                        partida.setTimeA();
+                        partida.setTimeB();
                         this.bracket.inserirPartida(partida);
                     }
                 }
@@ -36,6 +38,8 @@ public class EliminacaoSimples extends Torneio{
 		//inicializa as partidas das rodadas seguintes
             for(int i = 5; i <= 7; i++) {
                     PartidaAbstrata partida = new PartidaSingleElimination(i,this.bracket);
+                    partida.setTimeA();
+                    partida.setTimeB();
                     this.bracket.inserirPartida(partida);
             }
 		

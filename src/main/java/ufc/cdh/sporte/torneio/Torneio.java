@@ -76,6 +76,6 @@ public abstract class Torneio implements Serializable{
 	}
 	
     
-    public abstract void geraChave();
+        public abstract void geraChave();
     
 }

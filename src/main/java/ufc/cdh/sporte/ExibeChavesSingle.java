@@ -21,8 +21,12 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         labels.add(timeF);
         labels.add(timeG);
         labels.add(timeH);  
-        for(int i = 0; i < 8; i++){
-            labels.get(i).setText(torneio.getTimes().getTimes().get(i).getNome());
+        
+//        labels.get(1).setText(torneio.buscaPartida(1).getTimeA().getNome());
+        for(int i = 0; i <= 3; i++){
+            labels.get(2*i).setText(torneio.getChave().buscaPartida(i+1).getTimeA().getNome());
+            labels.get(2*i+1).setText(torneio.getChave().buscaPartida(i+1).getTimeB().getNome());
+            //labels.get(i).setText(torneio.getTimes().getTimes().get(i).getNome());
         }
     }
 
