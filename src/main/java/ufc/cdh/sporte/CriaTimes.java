@@ -16,6 +16,7 @@ import ufc.cdh.sporte.participantes.exceptions.CoachExistenteException;
 import ufc.cdh.sporte.participantes.exceptions.JogadorRepetidoException;
 import ufc.cdh.sporte.times.TimeNaoSeeded;
 import ufc.cdh.sporte.times.TimeSeeded;
+import ufc.cdh.sporte.times.excecao.TimeExistenteException;
 import ufc.cdh.sporte.torneio.Torneio;
 
 /**
@@ -66,6 +67,169 @@ public class CriaTimes extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         participanteNome6 = new javax.swing.JTextField();
         timeIcone = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jPanel12 = new javax.swing.JPanel();
+        jButton3 = new javax.swing.JButton();
+        nomeLabel1 = new javax.swing.JLabel();
+        timeNome2 = new javax.swing.JTextField();
+        jLabel9 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextArea2 = new javax.swing.JTextArea();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        participanteNome7 = new javax.swing.JTextField();
+        participanteNome8 = new javax.swing.JTextField();
+        participanteNome9 = new javax.swing.JTextField();
+        participanteNome10 = new javax.swing.JTextField();
+        participanteNome11 = new javax.swing.JTextField();
+        jButton4 = new javax.swing.JButton();
+        participanteNome12 = new javax.swing.JTextField();
+        timeIcone1 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jPanel13 = new javax.swing.JPanel();
+        jButton5 = new javax.swing.JButton();
+        nomeLabel2 = new javax.swing.JLabel();
+        timeNome3 = new javax.swing.JTextField();
+        jLabel17 = new javax.swing.JLabel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTextArea3 = new javax.swing.JTextArea();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        participanteNome13 = new javax.swing.JTextField();
+        participanteNome14 = new javax.swing.JTextField();
+        participanteNome15 = new javax.swing.JTextField();
+        participanteNome16 = new javax.swing.JTextField();
+        participanteNome17 = new javax.swing.JTextField();
+        jButton6 = new javax.swing.JButton();
+        participanteNome18 = new javax.swing.JTextField();
+        timeIcone2 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jTextField3 = new javax.swing.JTextField();
+        jPanel14 = new javax.swing.JPanel();
+        jButton7 = new javax.swing.JButton();
+        nomeLabel3 = new javax.swing.JLabel();
+        timeNome4 = new javax.swing.JTextField();
+        jLabel25 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTextArea4 = new javax.swing.JTextArea();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        participanteNome19 = new javax.swing.JTextField();
+        participanteNome20 = new javax.swing.JTextField();
+        participanteNome21 = new javax.swing.JTextField();
+        participanteNome22 = new javax.swing.JTextField();
+        participanteNome23 = new javax.swing.JTextField();
+        jButton8 = new javax.swing.JButton();
+        participanteNome24 = new javax.swing.JTextField();
+        timeIcone3 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jTextField4 = new javax.swing.JTextField();
+        jPanel15 = new javax.swing.JPanel();
+        jButton9 = new javax.swing.JButton();
+        nomeLabel4 = new javax.swing.JLabel();
+        timeNome5 = new javax.swing.JTextField();
+        jLabel33 = new javax.swing.JLabel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        jTextArea5 = new javax.swing.JTextArea();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
+        participanteNome25 = new javax.swing.JTextField();
+        participanteNome26 = new javax.swing.JTextField();
+        participanteNome27 = new javax.swing.JTextField();
+        participanteNome28 = new javax.swing.JTextField();
+        participanteNome29 = new javax.swing.JTextField();
+        jButton10 = new javax.swing.JButton();
+        participanteNome30 = new javax.swing.JTextField();
+        timeIcone4 = new javax.swing.JLabel();
+        jLabel40 = new javax.swing.JLabel();
+        jTextField5 = new javax.swing.JTextField();
+        jPanel16 = new javax.swing.JPanel();
+        jButton11 = new javax.swing.JButton();
+        nomeLabel5 = new javax.swing.JLabel();
+        timeNome6 = new javax.swing.JTextField();
+        jLabel41 = new javax.swing.JLabel();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        jTextArea6 = new javax.swing.JTextArea();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel43 = new javax.swing.JLabel();
+        jLabel44 = new javax.swing.JLabel();
+        jLabel45 = new javax.swing.JLabel();
+        jLabel46 = new javax.swing.JLabel();
+        jLabel47 = new javax.swing.JLabel();
+        participanteNome31 = new javax.swing.JTextField();
+        participanteNome32 = new javax.swing.JTextField();
+        participanteNome33 = new javax.swing.JTextField();
+        participanteNome34 = new javax.swing.JTextField();
+        participanteNome35 = new javax.swing.JTextField();
+        jButton12 = new javax.swing.JButton();
+        participanteNome36 = new javax.swing.JTextField();
+        timeIcone5 = new javax.swing.JLabel();
+        jLabel48 = new javax.swing.JLabel();
+        jTextField6 = new javax.swing.JTextField();
+        jPanel17 = new javax.swing.JPanel();
+        jButton13 = new javax.swing.JButton();
+        nomeLabel6 = new javax.swing.JLabel();
+        timeNome7 = new javax.swing.JTextField();
+        jLabel49 = new javax.swing.JLabel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTextArea7 = new javax.swing.JTextArea();
+        jLabel50 = new javax.swing.JLabel();
+        jLabel51 = new javax.swing.JLabel();
+        jLabel52 = new javax.swing.JLabel();
+        jLabel53 = new javax.swing.JLabel();
+        jLabel54 = new javax.swing.JLabel();
+        jLabel55 = new javax.swing.JLabel();
+        participanteNome37 = new javax.swing.JTextField();
+        participanteNome38 = new javax.swing.JTextField();
+        participanteNome39 = new javax.swing.JTextField();
+        participanteNome40 = new javax.swing.JTextField();
+        participanteNome41 = new javax.swing.JTextField();
+        jButton14 = new javax.swing.JButton();
+        participanteNome42 = new javax.swing.JTextField();
+        timeIcone6 = new javax.swing.JLabel();
+        jLabel56 = new javax.swing.JLabel();
+        jTextField7 = new javax.swing.JTextField();
+        jPanel18 = new javax.swing.JPanel();
+        jButton15 = new javax.swing.JButton();
+        nomeLabel7 = new javax.swing.JLabel();
+        timeNome8 = new javax.swing.JTextField();
+        jLabel57 = new javax.swing.JLabel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        jTextArea8 = new javax.swing.JTextArea();
+        jLabel58 = new javax.swing.JLabel();
+        jLabel59 = new javax.swing.JLabel();
+        jLabel60 = new javax.swing.JLabel();
+        jLabel61 = new javax.swing.JLabel();
+        jLabel62 = new javax.swing.JLabel();
+        jLabel63 = new javax.swing.JLabel();
+        participanteNome43 = new javax.swing.JTextField();
+        participanteNome44 = new javax.swing.JTextField();
+        participanteNome45 = new javax.swing.JTextField();
+        participanteNome46 = new javax.swing.JTextField();
+        participanteNome47 = new javax.swing.JTextField();
+        jButton16 = new javax.swing.JButton();
+        participanteNome48 = new javax.swing.JTextField();
+        timeIcone7 = new javax.swing.JLabel();
+        jLabel64 = new javax.swing.JLabel();
+        jTextField8 = new javax.swing.JTextField();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
@@ -134,51 +298,65 @@ public class CriaTimes extends javax.swing.JFrame {
         timeIcone.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         timeIcone.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
+        jLabel8.setText("Seed");
+
+        jTextField1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField1KeyTyped(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
         jPanel11Layout.setHorizontalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addGap(16, 16, 16)
-                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel11Layout.createSequentialGroup()
-                        .addComponent(jButton1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 513, Short.MAX_VALUE)
-                        .addComponent(jButton2))
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel11Layout.createSequentialGroup()
                         .addComponent(timeIcone)
                         .addGap(18, 18, 18)
-                        .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(nomeLabel)
-                            .addComponent(jLabel1)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 400, Short.MAX_VALUE)
-                            .addComponent(timeNome1))
-                        .addGap(42, 42, 42))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
-                        .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel11Layout.createSequentialGroup()
-                                .addComponent(jLabel6)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(participanteNome4, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 93, Short.MAX_VALUE)
-                                .addComponent(jLabel7))
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel11Layout.createSequentialGroup()
-                                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                .addGap(12, 12, 12)
-                                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(participanteNome3, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(participanteNome6, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING))))
-                        .addGap(18, 18, 18)
                         .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(participanteNome1, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(participanteNome2, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(participanteNome5, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(jLabel1)
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel11Layout.createSequentialGroup()
+                                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(nomeLabel)
+                                    .addComponent(timeNome1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(44, 44, 44)
+                                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanel11Layout.createSequentialGroup()
+                            .addComponent(jButton1)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 515, Short.MAX_VALUE)
+                            .addComponent(jButton2))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
+                            .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel11Layout.createSequentialGroup()
+                                    .addComponent(jLabel6)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(participanteNome4, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 93, Short.MAX_VALUE)
+                                    .addComponent(jLabel7))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel11Layout.createSequentialGroup()
+                                    .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addGap(12, 12, 12)
+                                    .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(participanteNome3, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(participanteNome6, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING))))
+                            .addGap(18, 18, 18)
+                            .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(participanteNome1, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome2, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome5, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                 .addContainerGap(35, Short.MAX_VALUE))
         );
         jPanel11Layout.setVerticalGroup(
@@ -191,10 +369,14 @@ public class CriaTimes extends javax.swing.JFrame {
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel11Layout.createSequentialGroup()
                         .addGap(16, 16, 16)
-                        .addComponent(nomeLabel)
+                        .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(nomeLabel)
+                            .addComponent(jLabel8))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(timeNome1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
+                        .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(timeNome1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(24, 24, 24)
                         .addComponent(jLabel1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -219,10 +401,1179 @@ public class CriaTimes extends javax.swing.JFrame {
                     .addComponent(participanteNome4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel7)
                     .addComponent(participanteNome5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(68, Short.MAX_VALUE))
         );
 
+        if(!torneio.getSeeded()){
+            jLabel8.setVisible(false);
+        }
+        if(!torneio.getSeeded()){
+            jTextField1.setVisible(false);
+        }
+
         jTabbedPane1.addTab("Time 1", jPanel11);
+
+        jButton3.setText("Mudar ícone");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
+        nomeLabel1.setText("Nome do Time:");
+
+        jLabel9.setText("Descrição (opcional):");
+
+        jTextArea2.setColumns(20);
+        jTextArea2.setRows(3);
+        jScrollPane2.setViewportView(jTextArea2);
+
+        jLabel10.setText("Técnico: ");
+
+        jLabel11.setText("Jogador 3: ");
+
+        jLabel12.setText("Jogador 1: ");
+
+        jLabel13.setText("Jogador 4: ");
+
+        jLabel14.setText("Jogador 2: ");
+
+        jLabel15.setText("Jogador 5: ");
+
+        participanteNome9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome9ActionPerformed(evt);
+            }
+        });
+
+        participanteNome10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome10ActionPerformed(evt);
+            }
+        });
+
+        jButton4.setText("Cadastrar Time");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+
+        timeIcone1.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png"));
+        timeIcone1.setText("Ícone do time");
+        timeIcone1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        timeIcone1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+
+        jLabel16.setText("Seed");
+
+        jTextField2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField2KeyTyped(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addGap(16, 16, 16)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addComponent(timeIcone1)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel9)
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel12Layout.createSequentialGroup()
+                                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(nomeLabel1)
+                                    .addComponent(timeNome2, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(44, 44, 44)
+                                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanel12Layout.createSequentialGroup()
+                            .addComponent(jButton3)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 515, Short.MAX_VALUE)
+                            .addComponent(jButton4))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
+                            .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel12Layout.createSequentialGroup()
+                                    .addComponent(jLabel14)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(participanteNome10, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 93, Short.MAX_VALUE)
+                                    .addComponent(jLabel15))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel12Layout.createSequentialGroup()
+                                    .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addGap(12, 12, 12)
+                                    .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(participanteNome9, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(participanteNome12, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel13, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel11, javax.swing.GroupLayout.Alignment.TRAILING))))
+                            .addGap(18, 18, 18)
+                            .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(participanteNome7, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome8, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome11, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(35, Short.MAX_VALUE))
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton3, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jButton4))
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(nomeLabel1)
+                            .addComponent(jLabel16))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(timeNome2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(24, 24, 24)
+                        .addComponent(jLabel9)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(timeIcone1)))
+                .addGap(20, 20, 20)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(participanteNome7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel11)
+                    .addComponent(participanteNome12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(participanteNome9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel12)
+                    .addComponent(participanteNome8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel13))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel14)
+                    .addComponent(participanteNome10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel15)
+                    .addComponent(participanteNome11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(68, Short.MAX_VALUE))
+        );
+
+        if(!torneio.getSeeded()){
+            jLabel8.setVisible(false);
+        }
+        if(!torneio.getSeeded()){
+            jTextField1.setVisible(false);
+        }
+
+        jTabbedPane1.addTab("Time 2", jPanel12);
+
+        jButton5.setText("Mudar ícone");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+
+        nomeLabel2.setText("Nome do Time:");
+
+        jLabel17.setText("Descrição (opcional):");
+
+        jTextArea3.setColumns(20);
+        jTextArea3.setRows(3);
+        jScrollPane3.setViewportView(jTextArea3);
+
+        jLabel18.setText("Técnico: ");
+
+        jLabel19.setText("Jogador 3: ");
+
+        jLabel20.setText("Jogador 1: ");
+
+        jLabel21.setText("Jogador 4: ");
+
+        jLabel22.setText("Jogador 2: ");
+
+        jLabel23.setText("Jogador 5: ");
+
+        participanteNome15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome15ActionPerformed(evt);
+            }
+        });
+
+        participanteNome16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome16ActionPerformed(evt);
+            }
+        });
+
+        jButton6.setText("Cadastrar Time");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
+
+        timeIcone2.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png"));
+        timeIcone2.setText("Ícone do time");
+        timeIcone2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        timeIcone2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+
+        jLabel24.setText("Seed");
+
+        jTextField3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField3KeyTyped(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addGap(16, 16, 16)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addComponent(timeIcone2)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel17)
+                            .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel13Layout.createSequentialGroup()
+                                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(nomeLabel2)
+                                    .addComponent(timeNome3, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(44, 44, 44)
+                                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanel13Layout.createSequentialGroup()
+                            .addComponent(jButton5)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 515, Short.MAX_VALUE)
+                            .addComponent(jButton6))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel13Layout.createSequentialGroup()
+                            .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel13Layout.createSequentialGroup()
+                                    .addComponent(jLabel22)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(participanteNome16, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 93, Short.MAX_VALUE)
+                                    .addComponent(jLabel23))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel13Layout.createSequentialGroup()
+                                    .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(jLabel18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(jLabel20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addGap(12, 12, 12)
+                                    .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(participanteNome15, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(participanteNome18, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel21, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel19, javax.swing.GroupLayout.Alignment.TRAILING))))
+                            .addGap(18, 18, 18)
+                            .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(participanteNome13, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome14, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome17, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(35, Short.MAX_VALUE))
+        );
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton5, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jButton6))
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(nomeLabel2)
+                            .addComponent(jLabel24))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(timeNome3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(24, 24, 24)
+                        .addComponent(jLabel17)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(timeIcone2)))
+                .addGap(20, 20, 20)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(participanteNome13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel19)
+                    .addComponent(participanteNome18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(participanteNome15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel20)
+                    .addComponent(participanteNome14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel21))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel22)
+                    .addComponent(participanteNome16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel23)
+                    .addComponent(participanteNome17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(68, Short.MAX_VALUE))
+        );
+
+        if(!torneio.getSeeded()){
+            jLabel8.setVisible(false);
+        }
+        if(!torneio.getSeeded()){
+            jTextField1.setVisible(false);
+        }
+
+        jTabbedPane1.addTab("Time 3", jPanel13);
+
+        jButton7.setText("Mudar ícone");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
+
+        nomeLabel3.setText("Nome do Time:");
+
+        jLabel25.setText("Descrição (opcional):");
+
+        jTextArea4.setColumns(20);
+        jTextArea4.setRows(3);
+        jScrollPane4.setViewportView(jTextArea4);
+
+        jLabel26.setText("Técnico: ");
+
+        jLabel27.setText("Jogador 3: ");
+
+        jLabel28.setText("Jogador 1: ");
+
+        jLabel29.setText("Jogador 4: ");
+
+        jLabel30.setText("Jogador 2: ");
+
+        jLabel31.setText("Jogador 5: ");
+
+        participanteNome21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome21ActionPerformed(evt);
+            }
+        });
+
+        participanteNome22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome22ActionPerformed(evt);
+            }
+        });
+
+        jButton8.setText("Cadastrar Time");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
+
+        timeIcone3.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png"));
+        timeIcone3.setText("Ícone do time");
+        timeIcone3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        timeIcone3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+
+        jLabel32.setText("Seed");
+
+        jTextField4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField4KeyTyped(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
+        jPanel14.setLayout(jPanel14Layout);
+        jPanel14Layout.setHorizontalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addGap(16, 16, 16)
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel14Layout.createSequentialGroup()
+                        .addComponent(timeIcone3)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel25)
+                            .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel14Layout.createSequentialGroup()
+                                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(nomeLabel3)
+                                    .addComponent(timeNome4, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(44, 44, 44)
+                                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanel14Layout.createSequentialGroup()
+                            .addComponent(jButton7)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 515, Short.MAX_VALUE)
+                            .addComponent(jButton8))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
+                            .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel14Layout.createSequentialGroup()
+                                    .addComponent(jLabel30)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(participanteNome22, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 93, Short.MAX_VALUE)
+                                    .addComponent(jLabel31))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel14Layout.createSequentialGroup()
+                                    .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(jLabel26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(jLabel28, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addGap(12, 12, 12)
+                                    .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(participanteNome21, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(participanteNome24, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel29, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel27, javax.swing.GroupLayout.Alignment.TRAILING))))
+                            .addGap(18, 18, 18)
+                            .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(participanteNome19, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome20, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome23, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(35, Short.MAX_VALUE))
+        );
+        jPanel14Layout.setVerticalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton7, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jButton8))
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel14Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(nomeLabel3)
+                            .addComponent(jLabel32))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(timeNome4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(24, 24, 24)
+                        .addComponent(jLabel25)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel14Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(timeIcone3)))
+                .addGap(20, 20, 20)
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(participanteNome19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel27)
+                    .addComponent(participanteNome24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(participanteNome21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel28)
+                    .addComponent(participanteNome20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel29))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel30)
+                    .addComponent(participanteNome22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel31)
+                    .addComponent(participanteNome23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(68, Short.MAX_VALUE))
+        );
+
+        if(!torneio.getSeeded()){
+            jLabel8.setVisible(false);
+        }
+        if(!torneio.getSeeded()){
+            jTextField1.setVisible(false);
+        }
+
+        jTabbedPane1.addTab("Time 4", jPanel14);
+
+        jButton9.setText("Mudar ícone");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
+
+        nomeLabel4.setText("Nome do Time:");
+
+        jLabel33.setText("Descrição (opcional):");
+
+        jTextArea5.setColumns(20);
+        jTextArea5.setRows(3);
+        jScrollPane5.setViewportView(jTextArea5);
+
+        jLabel34.setText("Técnico: ");
+
+        jLabel35.setText("Jogador 3: ");
+
+        jLabel36.setText("Jogador 1: ");
+
+        jLabel37.setText("Jogador 4: ");
+
+        jLabel38.setText("Jogador 2: ");
+
+        jLabel39.setText("Jogador 5: ");
+
+        participanteNome27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome27ActionPerformed(evt);
+            }
+        });
+
+        participanteNome28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome28ActionPerformed(evt);
+            }
+        });
+
+        jButton10.setText("Cadastrar Time");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
+
+        timeIcone4.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png"));
+        timeIcone4.setText("Ícone do time");
+        timeIcone4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        timeIcone4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+
+        jLabel40.setText("Seed");
+
+        jTextField5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField5KeyTyped(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
+        jPanel15.setLayout(jPanel15Layout);
+        jPanel15Layout.setHorizontalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addGap(16, 16, 16)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel15Layout.createSequentialGroup()
+                        .addComponent(timeIcone4)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel33)
+                            .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel15Layout.createSequentialGroup()
+                                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(nomeLabel4)
+                                    .addComponent(timeNome5, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(44, 44, 44)
+                                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel40, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanel15Layout.createSequentialGroup()
+                            .addComponent(jButton9)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 515, Short.MAX_VALUE)
+                            .addComponent(jButton10))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
+                            .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel15Layout.createSequentialGroup()
+                                    .addComponent(jLabel38)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(participanteNome28, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 93, Short.MAX_VALUE)
+                                    .addComponent(jLabel39))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel15Layout.createSequentialGroup()
+                                    .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(jLabel34, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(jLabel36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addGap(12, 12, 12)
+                                    .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(participanteNome27, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(participanteNome30, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel37, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel35, javax.swing.GroupLayout.Alignment.TRAILING))))
+                            .addGap(18, 18, 18)
+                            .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(participanteNome25, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome26, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome29, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(35, Short.MAX_VALUE))
+        );
+        jPanel15Layout.setVerticalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton9, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jButton10))
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel15Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(nomeLabel4)
+                            .addComponent(jLabel40))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(timeNome5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(24, 24, 24)
+                        .addComponent(jLabel33)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel15Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(timeIcone4)))
+                .addGap(20, 20, 20)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel34, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(participanteNome25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel35)
+                    .addComponent(participanteNome30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(participanteNome27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel36)
+                    .addComponent(participanteNome26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel37))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel38)
+                    .addComponent(participanteNome28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel39)
+                    .addComponent(participanteNome29, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(68, Short.MAX_VALUE))
+        );
+
+        if(!torneio.getSeeded()){
+            jLabel8.setVisible(false);
+        }
+        if(!torneio.getSeeded()){
+            jTextField1.setVisible(false);
+        }
+
+        jTabbedPane1.addTab("Time 5", jPanel15);
+
+        jButton11.setText("Mudar ícone");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
+
+        nomeLabel5.setText("Nome do Time:");
+
+        jLabel41.setText("Descrição (opcional):");
+
+        jTextArea6.setColumns(20);
+        jTextArea6.setRows(3);
+        jScrollPane6.setViewportView(jTextArea6);
+
+        jLabel42.setText("Técnico: ");
+
+        jLabel43.setText("Jogador 3: ");
+
+        jLabel44.setText("Jogador 1: ");
+
+        jLabel45.setText("Jogador 4: ");
+
+        jLabel46.setText("Jogador 2: ");
+
+        jLabel47.setText("Jogador 5: ");
+
+        participanteNome33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome33ActionPerformed(evt);
+            }
+        });
+
+        participanteNome34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome34ActionPerformed(evt);
+            }
+        });
+
+        jButton12.setText("Cadastrar Time");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+
+        timeIcone5.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png"));
+        timeIcone5.setText("Ícone do time");
+        timeIcone5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        timeIcone5.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+
+        jLabel48.setText("Seed");
+
+        jTextField6.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField6KeyTyped(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
+        jPanel16.setLayout(jPanel16Layout);
+        jPanel16Layout.setHorizontalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addGap(16, 16, 16)
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel16Layout.createSequentialGroup()
+                        .addComponent(timeIcone5)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel41)
+                            .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel16Layout.createSequentialGroup()
+                                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(nomeLabel5)
+                                    .addComponent(timeNome6, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(44, 44, 44)
+                                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel48, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanel16Layout.createSequentialGroup()
+                            .addComponent(jButton11)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 515, Short.MAX_VALUE)
+                            .addComponent(jButton12))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel16Layout.createSequentialGroup()
+                            .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel16Layout.createSequentialGroup()
+                                    .addComponent(jLabel46)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(participanteNome34, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 93, Short.MAX_VALUE)
+                                    .addComponent(jLabel47))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel16Layout.createSequentialGroup()
+                                    .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(jLabel42, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(jLabel44, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addGap(12, 12, 12)
+                                    .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(participanteNome33, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(participanteNome36, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel45, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel43, javax.swing.GroupLayout.Alignment.TRAILING))))
+                            .addGap(18, 18, 18)
+                            .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(participanteNome31, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome32, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome35, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(35, Short.MAX_VALUE))
+        );
+        jPanel16Layout.setVerticalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton11, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jButton12))
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel16Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(nomeLabel5)
+                            .addComponent(jLabel48))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(timeNome6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(24, 24, 24)
+                        .addComponent(jLabel41)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel16Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(timeIcone5)))
+                .addGap(20, 20, 20)
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel42, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(participanteNome31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel43)
+                    .addComponent(participanteNome36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(participanteNome33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel44)
+                    .addComponent(participanteNome32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel45))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel46)
+                    .addComponent(participanteNome34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel47)
+                    .addComponent(participanteNome35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(68, Short.MAX_VALUE))
+        );
+
+        if(!torneio.getSeeded()){
+            jLabel8.setVisible(false);
+        }
+        if(!torneio.getSeeded()){
+            jTextField1.setVisible(false);
+        }
+
+        jTabbedPane1.addTab("Time 6", jPanel16);
+
+        jButton13.setText("Mudar ícone");
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
+
+        nomeLabel6.setText("Nome do Time:");
+
+        jLabel49.setText("Descrição (opcional):");
+
+        jTextArea7.setColumns(20);
+        jTextArea7.setRows(3);
+        jScrollPane7.setViewportView(jTextArea7);
+
+        jLabel50.setText("Técnico: ");
+
+        jLabel51.setText("Jogador 3: ");
+
+        jLabel52.setText("Jogador 1: ");
+
+        jLabel53.setText("Jogador 4: ");
+
+        jLabel54.setText("Jogador 2: ");
+
+        jLabel55.setText("Jogador 5: ");
+
+        participanteNome39.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome39ActionPerformed(evt);
+            }
+        });
+
+        participanteNome40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome40ActionPerformed(evt);
+            }
+        });
+
+        jButton14.setText("Cadastrar Time");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
+
+        timeIcone6.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png"));
+        timeIcone6.setText("Ícone do time");
+        timeIcone6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        timeIcone6.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+
+        jLabel56.setText("Seed");
+
+        jTextField7.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField7KeyTyped(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
+        jPanel17.setLayout(jPanel17Layout);
+        jPanel17Layout.setHorizontalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel17Layout.createSequentialGroup()
+                .addGap(16, 16, 16)
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel17Layout.createSequentialGroup()
+                        .addComponent(timeIcone6)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel49)
+                            .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel17Layout.createSequentialGroup()
+                                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(nomeLabel6)
+                                    .addComponent(timeNome7, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(44, 44, 44)
+                                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel56, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanel17Layout.createSequentialGroup()
+                            .addComponent(jButton13)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 515, Short.MAX_VALUE)
+                            .addComponent(jButton14))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
+                            .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel17Layout.createSequentialGroup()
+                                    .addComponent(jLabel54)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(participanteNome40, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 93, Short.MAX_VALUE)
+                                    .addComponent(jLabel55))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel17Layout.createSequentialGroup()
+                                    .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(jLabel50, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(jLabel52, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addGap(12, 12, 12)
+                                    .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(participanteNome39, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(participanteNome42, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel53, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel51, javax.swing.GroupLayout.Alignment.TRAILING))))
+                            .addGap(18, 18, 18)
+                            .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(participanteNome37, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome38, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome41, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(35, Short.MAX_VALUE))
+        );
+        jPanel17Layout.setVerticalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel17Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton13, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jButton14))
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel17Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(nomeLabel6)
+                            .addComponent(jLabel56))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(timeNome7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(24, 24, 24)
+                        .addComponent(jLabel49)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel17Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(timeIcone6)))
+                .addGap(20, 20, 20)
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel50, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(participanteNome37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel51)
+                    .addComponent(participanteNome42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(participanteNome39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel52)
+                    .addComponent(participanteNome38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel53))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel54)
+                    .addComponent(participanteNome40, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel55)
+                    .addComponent(participanteNome41, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(68, Short.MAX_VALUE))
+        );
+
+        if(!torneio.getSeeded()){
+            jLabel8.setVisible(false);
+        }
+        if(!torneio.getSeeded()){
+            jTextField1.setVisible(false);
+        }
+
+        jTabbedPane1.addTab("Time 7", jPanel17);
+
+        jButton15.setText("Mudar ícone");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
+
+        nomeLabel7.setText("Nome do Time:");
+
+        jLabel57.setText("Descrição (opcional):");
+
+        jTextArea8.setColumns(20);
+        jTextArea8.setRows(3);
+        jScrollPane8.setViewportView(jTextArea8);
+
+        jLabel58.setText("Técnico: ");
+
+        jLabel59.setText("Jogador 3: ");
+
+        jLabel60.setText("Jogador 1: ");
+
+        jLabel61.setText("Jogador 4: ");
+
+        jLabel62.setText("Jogador 2: ");
+
+        jLabel63.setText("Jogador 5: ");
+
+        participanteNome45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome45ActionPerformed(evt);
+            }
+        });
+
+        participanteNome46.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                participanteNome46ActionPerformed(evt);
+            }
+        });
+
+        jButton16.setText("Cadastrar Time");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
+
+        timeIcone7.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ufc\\cdh\\sporte\\recursos\\teamIcon.png"));
+        timeIcone7.setText("Ícone do time");
+        timeIcone7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        timeIcone7.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+
+        jLabel64.setText("Seed");
+
+        jTextField8.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField8KeyTyped(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
+        jPanel18.setLayout(jPanel18Layout);
+        jPanel18Layout.setHorizontalGroup(
+            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel18Layout.createSequentialGroup()
+                .addGap(16, 16, 16)
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel18Layout.createSequentialGroup()
+                        .addComponent(timeIcone7)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel57)
+                            .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel18Layout.createSequentialGroup()
+                                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(nomeLabel7)
+                                    .addComponent(timeNome8, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(44, 44, 44)
+                                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel64, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanel18Layout.createSequentialGroup()
+                            .addComponent(jButton15)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 515, Short.MAX_VALUE)
+                            .addComponent(jButton16))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel18Layout.createSequentialGroup()
+                            .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel18Layout.createSequentialGroup()
+                                    .addComponent(jLabel62)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(participanteNome46, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 93, Short.MAX_VALUE)
+                                    .addComponent(jLabel63))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel18Layout.createSequentialGroup()
+                                    .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(jLabel58, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(jLabel60, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addGap(12, 12, 12)
+                                    .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(participanteNome45, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(participanteNome48, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel61, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel59, javax.swing.GroupLayout.Alignment.TRAILING))))
+                            .addGap(18, 18, 18)
+                            .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(participanteNome43, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome44, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(participanteNome47, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(35, Short.MAX_VALUE))
+        );
+        jPanel18Layout.setVerticalGroup(
+            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel18Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton15, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jButton16))
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel18Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(nomeLabel7)
+                            .addComponent(jLabel64))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(timeNome8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(24, 24, 24)
+                        .addComponent(jLabel57)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel18Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(timeIcone7)))
+                .addGap(20, 20, 20)
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel58, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(participanteNome43, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel59)
+                    .addComponent(participanteNome48, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(participanteNome45, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel60)
+                    .addComponent(participanteNome44, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel61))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel62)
+                    .addComponent(participanteNome46, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel63)
+                    .addComponent(participanteNome47, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(68, Short.MAX_VALUE))
+        );
+
+        if(!torneio.getSeeded()){
+            jLabel8.setVisible(false);
+        }
+        if(!torneio.getSeeded()){
+            jTextField1.setVisible(false);
+        }
+
+        jTabbedPane1.addTab("Time 8", jPanel18);
 
         jMenu1.setText("File");
         jMenuBar1.add(jMenu1);
@@ -240,7 +1591,7 @@ public class CriaTimes extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 426, Short.MAX_VALUE)
+            .addComponent(jTabbedPane1)
         );
 
         jTabbedPane1.getAccessibleContext().setAccessibleName("Time 2");
@@ -258,12 +1609,23 @@ public class CriaTimes extends javax.swing.JFrame {
                 participanteNome3.getText().equals("") || participanteNome4.getText().equals("") || 
                 participanteNome5.getText().equals("")){
             JOptionPane.showMessageDialog(null, "Jogadores Insuficientes!");
+            return;
         }
-        if(torneio.getSeeded()){
-            torneio.cadastrarTime(new TimeSeeded(timeNome1.getText(),10));
-        } 
-        else{
-            torneio.cadastrarTime(new TimeNaoSeeded(timeNome1.getText()));
+        if(jTextField1.getText().equals("") && torneio.getSeeded()){
+            JOptionPane.showMessageDialog(null, "Insira uma seed");
+            return;
+        }
+        try{
+                if(torneio.getSeeded()){
+                torneio.cadastrarTime(new TimeSeeded(timeNome1.getText(),Integer.parseInt(jTextField1.getText())));
+            } 
+            else{
+                torneio.cadastrarTime(new TimeNaoSeeded(timeNome1.getText()));
+                }
+        }
+        catch(TimeExistenteException e){
+            JOptionPane.showMessageDialog(null, "Já existe um time com esse nome");
+            return;
         }
         try{
             torneio.getTime(timeNome1.getText()).CadastrarJogador(new Jogador(participanteNome1.getText()));
@@ -286,8 +1648,11 @@ public class CriaTimes extends javax.swing.JFrame {
             return;
         }
         JOptionPane.showMessageDialog(null, "Cadastrou!");
-        new ExibeChavesSingle(torneio).setVisible(true);
-        this.setVisible(false);
+        jButton2.setVisible(false);
+        if(torneio.numeroDeTimes() == 8){
+            new ExibeChavesSingle(torneio).setVisible(true);
+            this.setVisible(false);
+        }
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -310,6 +1675,517 @@ public class CriaTimes extends javax.swing.JFrame {
     private void participanteNome4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome4ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_participanteNome4ActionPerformed
+
+    private void jTextField1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1KeyTyped
+        char c = evt.getKeyChar();
+        if(!Character.isDigit(c)){
+            evt.consume();
+        }
+    }//GEN-LAST:event_jTextField1KeyTyped
+
+    private void jTextField2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2KeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField2KeyTyped
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+        if(timeNome2.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Insira um nome");
+            return;
+        }
+        if(participanteNome7.getText().equals("") || participanteNome8.getText().equals("") || 
+                participanteNome9.getText().equals("") || participanteNome10.getText().equals("") || 
+                participanteNome11.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Jogadores Insuficientes!");
+            return;
+        }
+        if(jTextField2.getText().equals("") && torneio.getSeeded()){
+            JOptionPane.showMessageDialog(null, "Insira uma seed");
+            return;
+        }
+        try{
+                if(torneio.getSeeded()){
+                torneio.cadastrarTime(new TimeSeeded(timeNome1.getText(),Integer.parseInt(jTextField2.getText())));
+            } 
+            else{
+                torneio.cadastrarTime(new TimeNaoSeeded(timeNome2.getText()));
+                }
+        }
+        catch(TimeExistenteException e){
+            JOptionPane.showMessageDialog(null, "Já existe um time com esse nome");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome2.getText()).CadastrarJogador(new Jogador(participanteNome7.getText()));
+            torneio.getTime(timeNome2.getText()).CadastrarJogador(new Jogador(participanteNome8.getText()));
+            torneio.getTime(timeNome2.getText()).CadastrarJogador(new Jogador(participanteNome9.getText()));
+            torneio.getTime(timeNome2.getText()).CadastrarJogador(new Jogador(participanteNome10.getText()));
+            torneio.getTime(timeNome2.getText()).CadastrarJogador(new Jogador(participanteNome11.getText()));
+        }
+        catch(JogadorRepetidoException e){
+            torneio.removerTime(torneio.getTime(timeNome2.getText()));
+            JOptionPane.showMessageDialog(null, "Jogadores repetidos encontrados!");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome2.getText()).CadastrarCoach(new Coach(participanteNome12.getText()));
+        }
+        catch (CoachExistenteException e){
+            torneio.removerTime(torneio.getTime(timeNome2.getText()));
+            JOptionPane.showMessageDialog(null, "Coach já atribuído!");
+            return;
+        }
+        JOptionPane.showMessageDialog(null, "Cadastrou!");
+        jButton4.setVisible(false);
+        if(torneio.numeroDeTimes() == 8){
+            new ExibeChavesSingle(torneio).setVisible(true);
+            this.setVisible(false);
+        }
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void participanteNome10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome10ActionPerformed
+
+    private void participanteNome9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome9ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void participanteNome15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome15ActionPerformed
+
+    private void participanteNome16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome16ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome16ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+        if(timeNome3.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Insira um nome");
+            return;
+        }
+        if(participanteNome13.getText().equals("") || participanteNome14.getText().equals("") || 
+                participanteNome15.getText().equals("") || participanteNome16.getText().equals("") || 
+                participanteNome17.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Jogadores Insuficientes!");
+            return;
+        }
+        if(jTextField3.getText().equals("") && torneio.getSeeded()){
+            JOptionPane.showMessageDialog(null, "Insira uma seed");
+            return;
+        }
+        try{
+                if(torneio.getSeeded()){
+                torneio.cadastrarTime(new TimeSeeded(timeNome3.getText(),Integer.parseInt(jTextField3.getText())));
+            } 
+            else{
+                torneio.cadastrarTime(new TimeNaoSeeded(timeNome3.getText()));
+                }
+        }
+        catch(TimeExistenteException e){
+            JOptionPane.showMessageDialog(null, "Já existe um time com esse nome");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome3.getText()).CadastrarJogador(new Jogador(participanteNome13.getText()));
+            torneio.getTime(timeNome3.getText()).CadastrarJogador(new Jogador(participanteNome14.getText()));
+            torneio.getTime(timeNome3.getText()).CadastrarJogador(new Jogador(participanteNome15.getText()));
+            torneio.getTime(timeNome3.getText()).CadastrarJogador(new Jogador(participanteNome16.getText()));
+            torneio.getTime(timeNome3.getText()).CadastrarJogador(new Jogador(participanteNome17.getText()));
+        }
+        catch(JogadorRepetidoException e){
+            torneio.removerTime(torneio.getTime(timeNome3.getText()));
+            JOptionPane.showMessageDialog(null, "Jogadores repetidos encontrados!");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome3.getText()).CadastrarCoach(new Coach(participanteNome18.getText()));
+        }
+        catch (CoachExistenteException e){
+            torneio.removerTime(torneio.getTime(timeNome3.getText()));
+            JOptionPane.showMessageDialog(null, "Coach já atribuído!");
+            return;
+        }
+        JOptionPane.showMessageDialog(null, "Cadastrou!");
+        jButton6.setVisible(false);
+        if(torneio.numeroDeTimes() == 8){
+            new ExibeChavesSingle(torneio).setVisible(true);
+            this.setVisible(false);
+        }
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jTextField3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField3KeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField3KeyTyped
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void participanteNome21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome21ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome21ActionPerformed
+
+    private void participanteNome22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome22ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome22ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+        if(timeNome4.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Insira um nome");
+            return;
+        }
+        if(participanteNome19.getText().equals("") || participanteNome20.getText().equals("") || 
+                participanteNome21.getText().equals("") || participanteNome22.getText().equals("") || 
+                participanteNome23.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Jogadores Insuficientes!");
+            return;
+        }
+        if(jTextField4.getText().equals("") && torneio.getSeeded()){
+            JOptionPane.showMessageDialog(null, "Insira uma seed");
+            return;
+        }
+        try{
+                if(torneio.getSeeded()){
+                torneio.cadastrarTime(new TimeSeeded(timeNome4.getText(),Integer.parseInt(jTextField4.getText())));
+            } 
+            else{
+                torneio.cadastrarTime(new TimeNaoSeeded(timeNome4.getText()));
+                }
+        }
+        catch(TimeExistenteException e){
+            JOptionPane.showMessageDialog(null, "Já existe um time com esse nome");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome4.getText()).CadastrarJogador(new Jogador(participanteNome19.getText()));
+            torneio.getTime(timeNome4.getText()).CadastrarJogador(new Jogador(participanteNome20.getText()));
+            torneio.getTime(timeNome4.getText()).CadastrarJogador(new Jogador(participanteNome21.getText()));
+            torneio.getTime(timeNome4.getText()).CadastrarJogador(new Jogador(participanteNome22.getText()));
+            torneio.getTime(timeNome4.getText()).CadastrarJogador(new Jogador(participanteNome23.getText()));
+        }
+        catch(JogadorRepetidoException e){
+            torneio.removerTime(torneio.getTime(timeNome4.getText()));
+            JOptionPane.showMessageDialog(null, "Jogadores repetidos encontrados!");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome4.getText()).CadastrarCoach(new Coach(participanteNome24.getText()));
+        }
+        catch (CoachExistenteException e){
+            torneio.removerTime(torneio.getTime(timeNome4.getText()));
+            JOptionPane.showMessageDialog(null, "Coach já atribuído!");
+            return;
+        }
+        JOptionPane.showMessageDialog(null, "Cadastrou!");
+        jButton8.setVisible(false);
+        if(torneio.numeroDeTimes() == 8){
+            new ExibeChavesSingle(torneio).setVisible(true);
+            this.setVisible(false);
+        }
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jTextField4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField4KeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField4KeyTyped
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void participanteNome27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome27ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome27ActionPerformed
+
+    private void participanteNome28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome28ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome28ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        // TODO add your handling code here:
+        if(timeNome5.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Insira um nome");
+            return;
+        }
+        if(participanteNome25.getText().equals("") || participanteNome26.getText().equals("") || 
+                participanteNome27.getText().equals("") || participanteNome28.getText().equals("") || 
+                participanteNome29.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Jogadores Insuficientes!");
+            return;
+        }
+        if(jTextField5.getText().equals("") && torneio.getSeeded()){
+            JOptionPane.showMessageDialog(null, "Insira uma seed");
+            return;
+        }
+        try{
+                if(torneio.getSeeded()){
+                torneio.cadastrarTime(new TimeSeeded(timeNome5.getText(),Integer.parseInt(jTextField5.getText())));
+            } 
+            else{
+                torneio.cadastrarTime(new TimeNaoSeeded(timeNome5.getText()));
+                }
+        }
+        catch(TimeExistenteException e){
+            JOptionPane.showMessageDialog(null, "Já existe um time com esse nome");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome5.getText()).CadastrarJogador(new Jogador(participanteNome25.getText()));
+            torneio.getTime(timeNome5.getText()).CadastrarJogador(new Jogador(participanteNome26.getText()));
+            torneio.getTime(timeNome5.getText()).CadastrarJogador(new Jogador(participanteNome27.getText()));
+            torneio.getTime(timeNome5.getText()).CadastrarJogador(new Jogador(participanteNome28.getText()));
+            torneio.getTime(timeNome5.getText()).CadastrarJogador(new Jogador(participanteNome29.getText()));
+        }
+        catch(JogadorRepetidoException e){
+            torneio.removerTime(torneio.getTime(timeNome5.getText()));
+            JOptionPane.showMessageDialog(null, "Jogadores repetidos encontrados!");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome5.getText()).CadastrarCoach(new Coach(participanteNome30.getText()));
+        }
+        catch (CoachExistenteException e){
+            torneio.removerTime(torneio.getTime(timeNome5.getText()));
+            JOptionPane.showMessageDialog(null, "Coach já atribuído!");
+            return;
+        }
+        JOptionPane.showMessageDialog(null, "Cadastrou!");
+        jButton10.setVisible(false);
+        if(torneio.numeroDeTimes() == 8){
+            new ExibeChavesSingle(torneio).setVisible(true);
+            this.setVisible(false);
+        }
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jTextField5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5KeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField5KeyTyped
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void participanteNome33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome33ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome33ActionPerformed
+
+    private void participanteNome34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome34ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome34ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        // TODO add your handling code here:
+        if(timeNome6.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Insira um nome");
+            return;
+        }
+        if(participanteNome31.getText().equals("") || participanteNome32.getText().equals("") || 
+                participanteNome33.getText().equals("") || participanteNome34.getText().equals("") || 
+                participanteNome35.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Jogadores Insuficientes!");
+            return;
+        }
+        if(jTextField6.getText().equals("") && torneio.getSeeded()){
+            JOptionPane.showMessageDialog(null, "Insira uma seed");
+            return;
+        }
+        try{
+                if(torneio.getSeeded()){
+                torneio.cadastrarTime(new TimeSeeded(timeNome6.getText(),Integer.parseInt(jTextField6.getText())));
+            } 
+            else{
+                torneio.cadastrarTime(new TimeNaoSeeded(timeNome6.getText()));
+                }
+        }
+        catch(TimeExistenteException e){
+            JOptionPane.showMessageDialog(null, "Já existe um time com esse nome");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome6.getText()).CadastrarJogador(new Jogador(participanteNome31.getText()));
+            torneio.getTime(timeNome6.getText()).CadastrarJogador(new Jogador(participanteNome32.getText()));
+            torneio.getTime(timeNome6.getText()).CadastrarJogador(new Jogador(participanteNome33.getText()));
+            torneio.getTime(timeNome6.getText()).CadastrarJogador(new Jogador(participanteNome34.getText()));
+            torneio.getTime(timeNome6.getText()).CadastrarJogador(new Jogador(participanteNome35.getText()));
+        }
+        catch(JogadorRepetidoException e){
+            torneio.removerTime(torneio.getTime(timeNome6.getText()));
+            JOptionPane.showMessageDialog(null, "Jogadores repetidos encontrados!");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome6.getText()).CadastrarCoach(new Coach(participanteNome36.getText()));
+        }
+        catch (CoachExistenteException e){
+            torneio.removerTime(torneio.getTime(timeNome6.getText()));
+            JOptionPane.showMessageDialog(null, "Coach já atribuído!");
+            return;
+        }
+        JOptionPane.showMessageDialog(null, "Cadastrou!");
+        jButton12.setVisible(false);
+        if(torneio.numeroDeTimes() == 8){
+            new ExibeChavesSingle(torneio).setVisible(true);
+            this.setVisible(false);
+        }
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jTextField6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField6KeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField6KeyTyped
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void participanteNome39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome39ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome39ActionPerformed
+
+    private void participanteNome40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome40ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome40ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        // TODO add your handling code here:
+        if(timeNome7.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Insira um nome");
+            return;
+        }
+        if(participanteNome37.getText().equals("") || participanteNome38.getText().equals("") || 
+                participanteNome39.getText().equals("") || participanteNome40.getText().equals("") || 
+                participanteNome41.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Jogadores Insuficientes!");
+            return;
+        }
+        if(jTextField7.getText().equals("") && torneio.getSeeded()){
+            JOptionPane.showMessageDialog(null, "Insira uma seed");
+            return;
+        }
+        try{
+                if(torneio.getSeeded()){
+                torneio.cadastrarTime(new TimeSeeded(timeNome7.getText(),Integer.parseInt(jTextField7.getText())));
+            } 
+            else{
+                torneio.cadastrarTime(new TimeNaoSeeded(timeNome7.getText()));
+                }
+        }
+        catch(TimeExistenteException e){
+            JOptionPane.showMessageDialog(null, "Já existe um time com esse nome");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome7.getText()).CadastrarJogador(new Jogador(participanteNome37.getText()));
+            torneio.getTime(timeNome7.getText()).CadastrarJogador(new Jogador(participanteNome38.getText()));
+            torneio.getTime(timeNome7.getText()).CadastrarJogador(new Jogador(participanteNome39.getText()));
+            torneio.getTime(timeNome7.getText()).CadastrarJogador(new Jogador(participanteNome40.getText()));
+            torneio.getTime(timeNome7.getText()).CadastrarJogador(new Jogador(participanteNome41.getText()));
+        }
+        catch(JogadorRepetidoException e){
+            torneio.removerTime(torneio.getTime(timeNome7.getText()));
+            JOptionPane.showMessageDialog(null, "Jogadores repetidos encontrados!");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome7.getText()).CadastrarCoach(new Coach(participanteNome42.getText()));
+        }
+        catch (CoachExistenteException e){
+            torneio.removerTime(torneio.getTime(timeNome7.getText()));
+            JOptionPane.showMessageDialog(null, "Coach já atribuído!");
+            return;
+        }
+        JOptionPane.showMessageDialog(null, "Cadastrou!");
+        jButton14.setVisible(false);
+        if(torneio.numeroDeTimes() == 8){
+            new ExibeChavesSingle(torneio).setVisible(true);
+            this.setVisible(false);
+        }
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jTextField7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7KeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField7KeyTyped
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void participanteNome45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome45ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome45ActionPerformed
+
+    private void participanteNome46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_participanteNome46ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_participanteNome46ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        // TODO add your handling code here:
+        if(timeNome8.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Insira um nome");
+            return;
+        }
+        if(participanteNome43.getText().equals("") || participanteNome44.getText().equals("") || 
+                participanteNome45.getText().equals("") || participanteNome46.getText().equals("") || 
+                participanteNome47.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Jogadores Insuficientes!");
+            return;
+        }
+        if(jTextField8.getText().equals("") && torneio.getSeeded()){
+            JOptionPane.showMessageDialog(null, "Insira uma seed");
+            return;
+        }
+        try{
+                if(torneio.getSeeded()){
+                torneio.cadastrarTime(new TimeSeeded(timeNome8.getText(),Integer.parseInt(jTextField8.getText())));
+            } 
+            else{
+                torneio.cadastrarTime(new TimeNaoSeeded(timeNome8.getText()));
+                }
+        }
+        catch(TimeExistenteException e){
+            JOptionPane.showMessageDialog(null, "Já existe um time com esse nome");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome8.getText()).CadastrarJogador(new Jogador(participanteNome43.getText()));
+            torneio.getTime(timeNome8.getText()).CadastrarJogador(new Jogador(participanteNome44.getText()));
+            torneio.getTime(timeNome8.getText()).CadastrarJogador(new Jogador(participanteNome45.getText()));
+            torneio.getTime(timeNome8.getText()).CadastrarJogador(new Jogador(participanteNome46.getText()));
+            torneio.getTime(timeNome8.getText()).CadastrarJogador(new Jogador(participanteNome47.getText()));
+        }
+        catch(JogadorRepetidoException e){
+            torneio.removerTime(torneio.getTime(timeNome8.getText()));
+            JOptionPane.showMessageDialog(null, "Jogadores repetidos encontrados!");
+            return;
+        }
+        try{
+            torneio.getTime(timeNome8.getText()).CadastrarCoach(new Coach(participanteNome48.getText()));
+        }
+        catch (CoachExistenteException e){
+            torneio.removerTime(torneio.getTime(timeNome8.getText()));
+            JOptionPane.showMessageDialog(null, "Coach já atribuído!");
+            return;
+        }
+        JOptionPane.showMessageDialog(null, "Cadastrou!");
+        jButton16.setVisible(false);
+        if(torneio.numeroDeTimes() == 8){
+            new ExibeChavesSingle(torneio).setVisible(true);
+            this.setVisible(false);
+        }
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jTextField8KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField8KeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField8KeyTyped
     private void displaySelectedImage(File imageFile) {
         ImageIcon imageIcon = new ImageIcon(imageFile.getAbsolutePath());
         Image scaledImage = imageIcon.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
@@ -317,32 +2193,195 @@ public class CriaTimes extends javax.swing.JFrame {
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JDialog jDialog1;
     private javax.swing.JFileChooser jFileChooser1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel50;
+    private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel56;
+    private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JOptionPane jOptionPane1;
     private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel18;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JTextArea jTextArea3;
+    private javax.swing.JTextArea jTextArea4;
+    private javax.swing.JTextArea jTextArea5;
+    private javax.swing.JTextArea jTextArea6;
+    private javax.swing.JTextArea jTextArea7;
+    private javax.swing.JTextArea jTextArea8;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField8;
     private javax.swing.JLabel nomeLabel;
+    private javax.swing.JLabel nomeLabel1;
+    private javax.swing.JLabel nomeLabel2;
+    private javax.swing.JLabel nomeLabel3;
+    private javax.swing.JLabel nomeLabel4;
+    private javax.swing.JLabel nomeLabel5;
+    private javax.swing.JLabel nomeLabel6;
+    private javax.swing.JLabel nomeLabel7;
     private javax.swing.JTextField participanteNome1;
+    private javax.swing.JTextField participanteNome10;
+    private javax.swing.JTextField participanteNome11;
+    private javax.swing.JTextField participanteNome12;
+    private javax.swing.JTextField participanteNome13;
+    private javax.swing.JTextField participanteNome14;
+    private javax.swing.JTextField participanteNome15;
+    private javax.swing.JTextField participanteNome16;
+    private javax.swing.JTextField participanteNome17;
+    private javax.swing.JTextField participanteNome18;
+    private javax.swing.JTextField participanteNome19;
     private javax.swing.JTextField participanteNome2;
+    private javax.swing.JTextField participanteNome20;
+    private javax.swing.JTextField participanteNome21;
+    private javax.swing.JTextField participanteNome22;
+    private javax.swing.JTextField participanteNome23;
+    private javax.swing.JTextField participanteNome24;
+    private javax.swing.JTextField participanteNome25;
+    private javax.swing.JTextField participanteNome26;
+    private javax.swing.JTextField participanteNome27;
+    private javax.swing.JTextField participanteNome28;
+    private javax.swing.JTextField participanteNome29;
     private javax.swing.JTextField participanteNome3;
+    private javax.swing.JTextField participanteNome30;
+    private javax.swing.JTextField participanteNome31;
+    private javax.swing.JTextField participanteNome32;
+    private javax.swing.JTextField participanteNome33;
+    private javax.swing.JTextField participanteNome34;
+    private javax.swing.JTextField participanteNome35;
+    private javax.swing.JTextField participanteNome36;
+    private javax.swing.JTextField participanteNome37;
+    private javax.swing.JTextField participanteNome38;
+    private javax.swing.JTextField participanteNome39;
     private javax.swing.JTextField participanteNome4;
+    private javax.swing.JTextField participanteNome40;
+    private javax.swing.JTextField participanteNome41;
+    private javax.swing.JTextField participanteNome42;
+    private javax.swing.JTextField participanteNome43;
+    private javax.swing.JTextField participanteNome44;
+    private javax.swing.JTextField participanteNome45;
+    private javax.swing.JTextField participanteNome46;
+    private javax.swing.JTextField participanteNome47;
+    private javax.swing.JTextField participanteNome48;
     private javax.swing.JTextField participanteNome5;
     private javax.swing.JTextField participanteNome6;
+    private javax.swing.JTextField participanteNome7;
+    private javax.swing.JTextField participanteNome8;
+    private javax.swing.JTextField participanteNome9;
     private javax.swing.JLabel timeIcone;
+    private javax.swing.JLabel timeIcone1;
+    private javax.swing.JLabel timeIcone2;
+    private javax.swing.JLabel timeIcone3;
+    private javax.swing.JLabel timeIcone4;
+    private javax.swing.JLabel timeIcone5;
+    private javax.swing.JLabel timeIcone6;
+    private javax.swing.JLabel timeIcone7;
     private javax.swing.JTextField timeNome1;
+    private javax.swing.JTextField timeNome2;
+    private javax.swing.JTextField timeNome3;
+    private javax.swing.JTextField timeNome4;
+    private javax.swing.JTextField timeNome5;
+    private javax.swing.JTextField timeNome6;
+    private javax.swing.JTextField timeNome7;
+    private javax.swing.JTextField timeNome8;
     // End of variables declaration//GEN-END:variables
 }

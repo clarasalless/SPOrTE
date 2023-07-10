@@ -20,13 +20,8 @@ public class ControladorTimes implements Serializable{
 	}
 	
 	//insere um time no vetor de times
-	public void inserirTime(TimeAbstrato time) {
-		try{
-                    times.inserirTime(time);
-		}
-                catch(TimeExistenteException e){
-                    System.out.println(e.getMessage());
-                }
+	public void inserirTime(TimeAbstrato time) throws TimeExistenteException{
+            times.inserirTime(time);
 	}
 	
 	//remove um time do vetor de times

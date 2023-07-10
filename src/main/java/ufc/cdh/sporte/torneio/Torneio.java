@@ -4,6 +4,7 @@ import java.io.Serializable;
 import ufc.cdh.sporte.controladores.*;
 import ufc.cdh.sporte.partida.PartidaAbstrata;
 import ufc.cdh.sporte.times.*;
+import ufc.cdh.sporte.times.excecao.TimeExistenteException;
 
 public abstract class Torneio implements Serializable{
 	private String nome;
@@ -50,7 +51,7 @@ public abstract class Torneio implements Serializable{
         }
 	
 	//cadastra um time no repositorio de times do torneio
-	public void cadastrarTime(TimeAbstrato time) {
+	public void cadastrarTime(TimeAbstrato time) throws TimeExistenteException{
 		contTimes.inserirTime(time);
 	}
 	
