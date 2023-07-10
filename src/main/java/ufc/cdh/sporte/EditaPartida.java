@@ -4,26 +4,36 @@
  */
 package ufc.cdh.sporte;
 
+import javax.swing.JOptionPane;
 import ufc.cdh.sporte.partida.PartidaAbstrata;
 import ufc.cdh.sporte.times.TimeAbstrato;
+import ufc.cdh.sporte.torneio.Torneio;
 
 /**
  *
  * @author main
  */
 public class EditaPartida extends javax.swing.JFrame {
-
+    
+    Torneio torneio;
     PartidaAbstrata partida;
     TimeAbstrato timeA;
     TimeAbstrato timeB;
+    javax.swing.JLabel placarA;
+    javax.swing.JLabel placarB;
+    javax.swing.JLabel vencedor;
 
     /**
      * Creates new form Partida
      *
      * @param partida
      */
-    public EditaPartida(PartidaAbstrata partida) {
+    public EditaPartida(Torneio torneio, PartidaAbstrata partida,javax.swing.JLabel placarA,javax.swing.JLabel placarB,javax.swing.JLabel vencedor) {
+        this.torneio = torneio;
         this.partida = partida;
+        this.placarA = placarA;
+        this.placarB = placarB;
+        this.vencedor = vencedor;
         timeA = partida.getTimeA();
         timeB = partida.getTimeB();
         initComponents();
@@ -62,6 +72,11 @@ public class EditaPartida extends javax.swing.JFrame {
                 jTextField2ActionPerformed(evt);
             }
         });
+        jTextField2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField2KeyTyped(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -92,6 +107,11 @@ public class EditaPartida extends javax.swing.JFrame {
         jLabel1.setText("jLabel1");
 
         jTextField1.setText("Placar do time A");
+        jTextField1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField1KeyTyped(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -166,11 +186,50 @@ public class EditaPartida extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        if(jTextField1.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Insira um valor para a pontuação do primeiro time");
+            return;
+        }
+        if(jTextField2.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Insira um valor para a pontuação do segundo time");
+            return;
+        }
+        partida.setPlacarA(Integer.parseInt(jTextField1.getText()));
+        placarA.setText(jTextField1.getText());
+        partida.setPlacarB(Integer.parseInt(jTextField2.getText()));
+        placarB.setText(jTextField2.getText());
+        if(partida.getPlacarA()==2){
+            partida.setVencedor(timeA);
+            partida.setPerdedor(timeB);
+            vencedor.setText(timeA.getNome());
+        }
+        if(partida.getPlacarB()==2){
+            partida.setVencedor(timeB);
+            partida.setPerdedor(timeA);
+            vencedor.setText(timeB.getNome());
+        }
+        this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jTextField1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1KeyTyped
+        // TODO add your handling code here:
+        char c = evt.getKeyChar();
+        if(!Character.isDigit(c)){
+            evt.consume();
+        }
+    }//GEN-LAST:event_jTextField1KeyTyped
+
+    private void jTextField2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2KeyTyped
+        // TODO add your handling code here:
+        char c = evt.getKeyChar();
+        if(!Character.isDigit(c)){
+            evt.consume();
+        }
+    }//GEN-LAST:event_jTextField2KeyTyped
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

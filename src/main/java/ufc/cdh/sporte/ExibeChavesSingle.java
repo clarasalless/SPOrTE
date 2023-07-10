@@ -90,6 +90,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         jButton19 = new javax.swing.JButton();
         jLabel39 = new javax.swing.JLabel();
         jLabel40 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem3 = new javax.swing.JMenuItem();
@@ -112,9 +113,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
             }
         });
 
-        jLabel29.setText("jLabel16");
+        jLabel29.setText("0");
 
-        jLabel30.setText("jLabel15");
+        jLabel30.setText("0");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -164,9 +165,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
             }
         });
 
-        jLabel27.setText("jLabel16");
+        jLabel27.setText("0");
 
-        jLabel28.setText("jLabel15");
+        jLabel28.setText("0");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -206,9 +207,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
 
         timeF.setText("jLabel6");
 
-        jLabel32.setText("jLabel15");
+        jLabel32.setText("0");
 
-        jLabel31.setText("jLabel16");
+        jLabel31.setText("0");
 
         jButton15.setText("jButton1");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
@@ -226,12 +227,12 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(timeE)
                     .addComponent(timeF))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel31)
                     .addComponent(jLabel32))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton15)
+                .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
         jPanel6Layout.setVerticalGroup(
@@ -262,9 +263,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
             }
         });
 
-        jLabel33.setText("jLabel16");
+        jLabel33.setText("0");
 
-        jLabel34.setText("jLabel15");
+        jLabel34.setText("0");
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -311,7 +312,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                     .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addContainerGap(70, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -329,11 +330,11 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
 
         jPanel2.setPreferredSize(new java.awt.Dimension(315, 413));
 
-        jLabel9.setText("jLabel1");
+        jLabel9.setText("-------");
 
-        jLabel10.setText("jLabel2");
+        jLabel10.setText("-------");
 
-        jLabel38.setText("jLabel15");
+        jLabel38.setText("-------");
 
         jButton18.setText("jButton1");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
@@ -342,7 +343,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
             }
         });
 
-        jLabel37.setText("jLabel16");
+        jLabel37.setText("-------");
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -378,9 +379,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jLabel11.setText("jLabel1");
+        jLabel11.setText("-------");
 
-        jLabel12.setText("jLabel2");
+        jLabel12.setText("-------");
 
         jButton17.setText("jButton1");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
@@ -389,9 +390,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
             }
         });
 
-        jLabel36.setText("jLabel15");
+        jLabel36.setText("-------");
 
-        jLabel35.setText("jLabel16");
+        jLabel35.setText("-------");
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
@@ -436,7 +437,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addContainerGap(43, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -450,9 +451,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
 
         jPanel3.setPreferredSize(new java.awt.Dimension(315, 413));
 
-        jLabel13.setText("jLabel1");
+        jLabel13.setText("-------");
 
-        jLabel14.setText("jLabel2");
+        jLabel14.setText("-------");
 
         jButton19.setText("jButton1");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
@@ -461,9 +462,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
             }
         });
 
-        jLabel39.setText("jLabel16");
+        jLabel39.setText("-------");
 
-        jLabel40.setText("jLabel15");
+        jLabel40.setText("-------");
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
@@ -499,6 +500,8 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
@@ -506,12 +509,18 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGap(33, 33, 33)
                 .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(32, Short.MAX_VALUE))
+                .addContainerGap(42, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addGap(140, 140, 140))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addGap(112, 112, 112)
                 .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(252, 252, 252))
         );
@@ -568,7 +577,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
-        EditaPartida partida1 = new EditaPartida(torneio.getChave().buscaPartida(1));
+        EditaPartida partida1 = new EditaPartida(torneio,torneio.getChave().buscaPartida(1),jLabel30, jLabel29, jLabel11);
         partida1.setVisible(true);
     }//GEN-LAST:event_jButton14ActionPerformed
 
@@ -608,37 +617,37 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         // TODO add your handling code here:
-        EditaPartida partida2 = new EditaPartida(torneio.getChave().buscaPartida(2));
+        EditaPartida partida2 = new EditaPartida(torneio,torneio.getChave().buscaPartida(2),jLabel28,jLabel27,jLabel12);
         partida2.setVisible(true);
     }//GEN-LAST:event_jButton13ActionPerformed
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
         // TODO add your handling code here:
-        EditaPartida partida3 = new EditaPartida(torneio.getChave().buscaPartida(3));
+        EditaPartida partida3 = new EditaPartida(torneio,torneio.getChave().buscaPartida(3),jLabel32,jLabel31,jLabel9);
         partida3.setVisible(true);
     }//GEN-LAST:event_jButton15ActionPerformed
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
         // TODO add your handling code here:
-        EditaPartida partida4 = new EditaPartida(torneio.getChave().buscaPartida(4));
+        EditaPartida partida4 = new EditaPartida(torneio,torneio.getChave().buscaPartida(4),jLabel34,jLabel33,jLabel10);
         partida4.setVisible(true);
     }//GEN-LAST:event_jButton16ActionPerformed
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
         // TODO add your handling code here:
-        EditaPartida partida5 = new EditaPartida(torneio.getChave().buscaPartida(5));
+        EditaPartida partida5 = new EditaPartida(torneio,torneio.getChave().buscaPartida(5),jLabel36,jLabel35,jLabel13);
         partida5.setVisible(true);
     }//GEN-LAST:event_jButton17ActionPerformed
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
         // TODO add your handling code here:
-        EditaPartida partida6 = new EditaPartida(torneio.getChave().buscaPartida(6));
+        EditaPartida partida6 = new EditaPartida(torneio,torneio.getChave().buscaPartida(6),jLabel38,jLabel37,jLabel14);
         partida6.setVisible(true);
     }//GEN-LAST:event_jButton18ActionPerformed
 
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
         // TODO add your handling code here:
-        EditaPartida partida7 = new EditaPartida(torneio.getChave().buscaPartida(7));
+        EditaPartida partida7 = new EditaPartida(torneio,torneio.getChave().buscaPartida(7),jLabel39,jLabel40,jLabel1);
         partida7.setVisible(true);
     }//GEN-LAST:event_jButton19ActionPerformed
 
@@ -652,6 +661,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
     private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
     private javax.swing.JFileChooser jFileChooser1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
