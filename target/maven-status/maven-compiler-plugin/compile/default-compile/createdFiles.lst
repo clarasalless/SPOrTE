@@ -29,6 +29,8 @@ ufc\cdh\sporte\CriaTimes$13.class
 ufc\cdh\sporte\ExibeChavesSingle$1.class
 ufc\cdh\sporte\ExibeChavesDouble.class
 ufc\cdh\sporte\TorneioHub$3.class
+ufc\cdh\sporte\ExibeChavesSingle$10.class
+ufc\cdh\sporte\ExibeChavesSingle$8.class
 ufc\cdh\sporte\CriaTimes$36.class
 TesteUI\NewTournamentFrame$1.class
 ufc\cdh\sporte\CriaTimes$6.class
@@ -44,6 +46,7 @@ ufc\cdh\sporte\CriaTimes$12.class
 ufc\cdh\sporte\torneio\EliminacaoDupla.class
 TesteUI\SetScoreFrame$1.class
 ufc\cdh\sporte\CriaTimes$40.class
+ufc\cdh\sporte\ExibeChavesSingle$7.class
 ufc\cdh\sporte\TorneioHub$4.class
 ufc\cdh\sporte\CriaTimes$35.class
 ufc\cdh\sporte\CriaTimes$7.class
@@ -57,6 +60,7 @@ TesteUI\SetScoreFrame.class
 ufc\cdh\sporte\times\excecao\TimeExistenteException.class
 ufc\cdh\sporte\CriaTimes$29.class
 ufc\cdh\sporte\CriaTimes$39.class
+ufc\cdh\sporte\ExibeChavesSingle$6.class
 ufc\cdh\sporte\SPOrTE.class
 ufc\cdh\sporte\CriaTimes$19.class
 ufc\cdh\sporte\CriaTimes$11.class
@@ -65,6 +69,7 @@ ufc\cdh\sporte\CriaTimes$1.class
 ufc\cdh\sporte\times\TimeAbstrato.class
 ufc\cdh\sporte\CriaTimes$16.class
 ufc\cdh\sporte\CriaTimes$14.class
+ufc\cdh\sporte\ExibeChavesSingle$9.class
 ufc\cdh\sporte\NovoTorneio$2.class
 ufc\cdh\sporte\partida\PartidaSingleElimination.class
 ufc\cdh\sporte\CriaTimes$4.class
@@ -75,6 +80,7 @@ ufc\cdh\sporte\times\TimeSeeded.class
 ufc\cdh\sporte\controladores\ControladorTorneio.class
 ufc\cdh\sporte\partida\PartidaDoubleElimination.class
 ufc\cdh\sporte\NovoTorneio$1.class
+ufc\cdh\sporte\ExibeChavesSingle$5.class
 ufc\cdh\sporte\CriaTimes$27.class
 ufc\cdh\sporte\times\excecao\TimesInsuficientesException.class
 ufc\cdh\sporte\CriaTimes$33.class
