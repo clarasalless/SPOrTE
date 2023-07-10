@@ -2,6 +2,7 @@ package ufc.cdh.sporte.times;
 
 import java.io.Serializable;
 import java.util.Vector;
+import javax.swing.ImageIcon;
 
 import ufc.cdh.sporte.participantes.Coach;
 import ufc.cdh.sporte.participantes.Jogador;
@@ -13,6 +14,7 @@ public abstract class TimeAbstrato implements iTime, Serializable{
     String nome;
     Vector<Jogador> jogadores;
     Coach coach;
+    ImageIcon iconeTime;
     
     public TimeAbstrato(String nome){
         this.nome = nome;
