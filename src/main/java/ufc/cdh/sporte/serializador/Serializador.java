@@ -10,7 +10,7 @@ import ufc.cdh.sporte.torneio.Torneio;
 public class Serializador{
     public void Serializar(Torneio torneio){
         try{
-            FileOutputStream fos = new FileOutputStream("TorneioTemp.txt");
+            FileOutputStream fos = new FileOutputStream(torneio.getNome() + ".sporte");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
             oos.writeObject(torneio);
             oos.flush();
@@ -21,10 +21,10 @@ public class Serializador{
         }
     }
     
-    public Torneio Desserializar(){
+    public Torneio Desserializar(String filepath){
         Torneio torneio = null;
         try{
-            FileInputStream fis = new FileInputStream("TorneioTemp.txt");
+            FileInputStream fis = new FileInputStream(filepath);
             ObjectInputStream ois = new ObjectInputStream(fis);
             torneio = (Torneio)ois.readObject();
             ois.close();
