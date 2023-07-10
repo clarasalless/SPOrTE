@@ -27,8 +27,9 @@ public class Chave implements Serializable{
 	//busca um jogo pela id (numero)
 	public PartidaAbstrata buscaPartida(int id) {
 		for(PartidaAbstrata match : this.partidas) {
-			if(match.getID() == id)
-				return match;
+			if(match.getID() == id){
+                            return match;
+                        }
 		}
 		return null;
 	}

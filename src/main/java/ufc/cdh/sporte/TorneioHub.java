@@ -54,8 +54,8 @@ public class TorneioHub extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
-        jMenu2 = new javax.swing.JMenu();
+        jMenuItem3 = new javax.swing.JMenuItem();
+        jMenuItem2 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("SPOrTE");
@@ -210,20 +210,25 @@ public class TorneioHub extends javax.swing.JFrame {
                 .addGap(48, 48, 48))
         );
 
-        jMenu1.setText("File");
+        jMenu1.setText("Arquivo");
 
-        jMenuItem1.setText("jMenuItem1");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+        jMenuItem3.setText("Novo");
+        jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+                jMenuItem3ActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem1);
+        jMenu1.add(jMenuItem3);
+
+        jMenuItem2.setText("Carregar");
+        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem2ActionPerformed(evt);
+            }
+        });
+        jMenu1.add(jMenuItem2);
 
         jMenuBar1.add(jMenu1);
-
-        jMenu2.setText("Edit");
-        jMenuBar1.add(jMenu2);
 
         setJMenuBar(jMenuBar1);
 
@@ -251,10 +256,6 @@ public class TorneioHub extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void CriarTorneioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CriarTorneioActionPerformed
         // TODO add your handling code here: //Aqui posso colocar pra criar uma nova tela
@@ -285,6 +286,34 @@ public class TorneioHub extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
+        NovoTorneio novoTorneio = new NovoTorneio();
+        this.setVisible(false);
+        novoTorneio.setVisible(true);
+    }//GEN-LAST:event_jMenuItem3ActionPerformed
+
+    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
+        try{
+            jFileChooser1.setDialogTitle("Selecione o torneio");
+            jFileChooser1.setFileFilter(new FileNameExtensionFilter("Arquivos .sporte","sporte"));
+            jFileChooser1.setVisible(true);
+
+            int option = jFileChooser1.showOpenDialog(this);
+            if (option == JFileChooser.APPROVE_OPTION) {
+                File selectedFile = jFileChooser1.getSelectedFile();
+                Serializador ser = new Serializador();
+                Torneio torneio = ser.Desserializar(selectedFile.getPath());
+                ExibeChavesSingle ex = new ExibeChavesSingle(torneio);
+                this.setVisible(false);
+                ex.setVisible(true);
+            }
+        }
+        catch(Exception e){
+            System.out.println(e.getMessage());
+            JOptionPane.showMessageDialog(null, "Falha em carregar torneio");
+        }
+    }//GEN-LAST:event_jMenuItem2ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -306,9 +335,9 @@ public class TorneioHub extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
