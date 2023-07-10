@@ -3,6 +3,7 @@ package ufc.cdh.sporte;
 
 import static java.lang.Math.pow;
 import java.util.Vector;
+import ufc.cdh.sporte.serializador.Serializador;
 import ufc.cdh.sporte.torneio.Torneio;
 
 public class ExibeChavesSingle extends javax.swing.JFrame {
@@ -10,6 +11,8 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
     public ExibeChavesSingle(Torneio torneio) {    
         initComponents();
         torneio.geraChave();
+        Serializador ser = new Serializador();
+        ser.Serializar(torneio);
         Vector<javax.swing.JLabel> labels = new Vector();
         labels.add(timeA);
         labels.add(timeB);
