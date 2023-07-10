@@ -571,10 +571,10 @@ public class CriaTimes extends javax.swing.JFrame {
         );
 
         if(!torneio.getSeeded()){
-            jLabel8.setVisible(false);
+            jLabel16.setVisible(false);
         }
         if(!torneio.getSeeded()){
-            jTextField1.setVisible(false);
+            jTextField2.setVisible(false);
         }
 
         jTabbedPane1.addTab("Time 2", jPanel12);
@@ -737,10 +737,10 @@ public class CriaTimes extends javax.swing.JFrame {
         );
 
         if(!torneio.getSeeded()){
-            jLabel8.setVisible(false);
+            jLabel24.setVisible(false);
         }
         if(!torneio.getSeeded()){
-            jTextField1.setVisible(false);
+            jTextField3.setVisible(false);
         }
 
         jTabbedPane1.addTab("Time 3", jPanel13);
@@ -903,10 +903,10 @@ public class CriaTimes extends javax.swing.JFrame {
         );
 
         if(!torneio.getSeeded()){
-            jLabel8.setVisible(false);
+            jLabel32.setVisible(false);
         }
         if(!torneio.getSeeded()){
-            jTextField1.setVisible(false);
+            jTextField4.setVisible(false);
         }
 
         jTabbedPane1.addTab("Time 4", jPanel14);
@@ -1069,10 +1069,10 @@ public class CriaTimes extends javax.swing.JFrame {
         );
 
         if(!torneio.getSeeded()){
-            jLabel8.setVisible(false);
+            jLabel40.setVisible(false);
         }
         if(!torneio.getSeeded()){
-            jTextField1.setVisible(false);
+            jTextField5.setVisible(false);
         }
 
         jTabbedPane1.addTab("Time 5", jPanel15);
@@ -1235,10 +1235,10 @@ public class CriaTimes extends javax.swing.JFrame {
         );
 
         if(!torneio.getSeeded()){
-            jLabel8.setVisible(false);
+            jLabel48.setVisible(false);
         }
         if(!torneio.getSeeded()){
-            jTextField1.setVisible(false);
+            jTextField6.setVisible(false);
         }
 
         jTabbedPane1.addTab("Time 6", jPanel16);
@@ -1401,10 +1401,10 @@ public class CriaTimes extends javax.swing.JFrame {
         );
 
         if(!torneio.getSeeded()){
-            jLabel8.setVisible(false);
+            jLabel56.setVisible(false);
         }
         if(!torneio.getSeeded()){
-            jTextField1.setVisible(false);
+            jTextField7.setVisible(false);
         }
 
         jTabbedPane1.addTab("Time 7", jPanel17);
@@ -1567,10 +1567,10 @@ public class CriaTimes extends javax.swing.JFrame {
         );
 
         if(!torneio.getSeeded()){
-            jLabel8.setVisible(false);
+            jLabel64.setVisible(false);
         }
         if(!torneio.getSeeded()){
-            jTextField1.setVisible(false);
+            jTextField8.setVisible(false);
         }
 
         jTabbedPane1.addTab("Time 8", jPanel18);
@@ -1650,6 +1650,7 @@ public class CriaTimes extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null, "Cadastrou!");
         jButton2.setVisible(false);
         if(torneio.numeroDeTimes() == 8){
+            torneio.geraChave();
             new ExibeChavesSingle(torneio).setVisible(true);
             this.setVisible(false);
         }
@@ -1741,6 +1742,7 @@ public class CriaTimes extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null, "Cadastrou!");
         jButton4.setVisible(false);
         if(torneio.numeroDeTimes() == 8){
+            torneio.geraChave();
             new ExibeChavesSingle(torneio).setVisible(true);
             this.setVisible(false);
         }
@@ -1755,7 +1757,15 @@ public class CriaTimes extends javax.swing.JFrame {
     }//GEN-LAST:event_participanteNome9ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
+       jFileChooser1.setDialogTitle("Select Team Icon");
+        jFileChooser1.setFileFilter(new FileNameExtensionFilter("Image Files", "jpg", "jpeg", "png", "gif"));
+        jFileChooser1.setVisible(true);
+
+        int option = jFileChooser1.showOpenDialog(this);
+        if (option == JFileChooser.APPROVE_OPTION) {
+            File selectedFile = jFileChooser1.getSelectedFile();
+            displaySelectedImage(selectedFile);
+        }
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
@@ -1821,6 +1831,7 @@ public class CriaTimes extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null, "Cadastrou!");
         jButton6.setVisible(false);
         if(torneio.numeroDeTimes() == 8){
+            torneio.geraChave();
             new ExibeChavesSingle(torneio).setVisible(true);
             this.setVisible(false);
         }
@@ -1896,6 +1907,7 @@ public class CriaTimes extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null, "Cadastrou!");
         jButton8.setVisible(false);
         if(torneio.numeroDeTimes() == 8){
+            torneio.geraChave();
             new ExibeChavesSingle(torneio).setVisible(true);
             this.setVisible(false);
         }
@@ -1971,6 +1983,7 @@ public class CriaTimes extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null, "Cadastrou!");
         jButton10.setVisible(false);
         if(torneio.numeroDeTimes() == 8){
+            torneio.geraChave();
             new ExibeChavesSingle(torneio).setVisible(true);
             this.setVisible(false);
         }
@@ -2046,6 +2059,7 @@ public class CriaTimes extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null, "Cadastrou!");
         jButton12.setVisible(false);
         if(torneio.numeroDeTimes() == 8){
+            torneio.geraChave();
             new ExibeChavesSingle(torneio).setVisible(true);
             this.setVisible(false);
         }
@@ -2121,6 +2135,7 @@ public class CriaTimes extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null, "Cadastrou!");
         jButton14.setVisible(false);
         if(torneio.numeroDeTimes() == 8){
+            torneio.geraChave();
             new ExibeChavesSingle(torneio).setVisible(true);
             this.setVisible(false);
         }
@@ -2196,6 +2211,7 @@ public class CriaTimes extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null, "Cadastrou!");
         jButton16.setVisible(false);
         if(torneio.numeroDeTimes() == 8){
+            torneio.geraChave();
             new ExibeChavesSingle(torneio).setVisible(true);
             this.setVisible(false);
         }

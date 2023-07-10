@@ -573,7 +573,7 @@
                 <Property name="text" type="java.lang.String" value="Seed"/>
               </Properties>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jLabel8.setVisible(false);&#xa;}"/>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jLabel16.setVisible(false);&#xa;}"/>
               </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="jTextField2">
@@ -581,7 +581,7 @@
                 <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextField2KeyTyped"/>
               </Events>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jTextField1.setVisible(false);&#xa;}"/>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jTextField2.setVisible(false);&#xa;}"/>
               </AuxValues>
             </Component>
           </SubComponents>
@@ -828,7 +828,7 @@
                 <Property name="text" type="java.lang.String" value="Seed"/>
               </Properties>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jLabel8.setVisible(false);&#xa;}"/>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jLabel24.setVisible(false);&#xa;}"/>
               </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="jTextField3">
@@ -836,7 +836,7 @@
                 <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextField3KeyTyped"/>
               </Events>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jTextField1.setVisible(false);&#xa;}"/>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jTextField3.setVisible(false);&#xa;}"/>
               </AuxValues>
             </Component>
           </SubComponents>
@@ -1083,7 +1083,7 @@
                 <Property name="text" type="java.lang.String" value="Seed"/>
               </Properties>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jLabel8.setVisible(false);&#xa;}"/>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jLabel32.setVisible(false);&#xa;}"/>
               </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="jTextField4">
@@ -1091,7 +1091,7 @@
                 <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextField4KeyTyped"/>
               </Events>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jTextField1.setVisible(false);&#xa;}"/>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jTextField4.setVisible(false);&#xa;}"/>
               </AuxValues>
             </Component>
           </SubComponents>
@@ -1338,7 +1338,7 @@
                 <Property name="text" type="java.lang.String" value="Seed"/>
               </Properties>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jLabel8.setVisible(false);&#xa;}"/>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jLabel40.setVisible(false);&#xa;}"/>
               </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="jTextField5">
@@ -1346,7 +1346,7 @@
                 <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextField5KeyTyped"/>
               </Events>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jTextField1.setVisible(false);&#xa;}"/>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jTextField5.setVisible(false);&#xa;}"/>
               </AuxValues>
             </Component>
           </SubComponents>
@@ -1593,7 +1593,7 @@
                 <Property name="text" type="java.lang.String" value="Seed"/>
               </Properties>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jLabel8.setVisible(false);&#xa;}"/>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jLabel48.setVisible(false);&#xa;}"/>
               </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="jTextField6">
@@ -1601,7 +1601,7 @@
                 <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextField6KeyTyped"/>
               </Events>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jTextField1.setVisible(false);&#xa;}"/>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jTextField6.setVisible(false);&#xa;}"/>
               </AuxValues>
             </Component>
           </SubComponents>
@@ -1848,7 +1848,7 @@
                 <Property name="text" type="java.lang.String" value="Seed"/>
               </Properties>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jLabel8.setVisible(false);&#xa;}"/>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jLabel56.setVisible(false);&#xa;}"/>
               </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="jTextField7">
@@ -1856,7 +1856,7 @@
                 <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextField7KeyTyped"/>
               </Events>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jTextField1.setVisible(false);&#xa;}"/>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jTextField7.setVisible(false);&#xa;}"/>
               </AuxValues>
             </Component>
           </SubComponents>
@@ -2103,7 +2103,7 @@
                 <Property name="text" type="java.lang.String" value="Seed"/>
               </Properties>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jLabel8.setVisible(false);&#xa;}"/>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jLabel64.setVisible(false);&#xa;}"/>
               </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="jTextField8">
@@ -2111,7 +2111,7 @@
                 <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextField8KeyTyped"/>
               </Events>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jTextField1.setVisible(false);&#xa;}"/>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="if(!torneio.getSeeded()){&#xa;    jTextField8.setVisible(false);&#xa;}"/>
               </AuxValues>
             </Component>
           </SubComponents>

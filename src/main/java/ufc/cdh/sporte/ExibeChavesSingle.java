@@ -10,7 +10,6 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
 
     public ExibeChavesSingle(Torneio torneio) {    
         initComponents();
-        torneio.geraChave();
         Serializador ser = new Serializador();
         ser.Serializar(torneio);
         Vector<javax.swing.JLabel> labels = new Vector();
