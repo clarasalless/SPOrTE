@@ -50,6 +50,7 @@ public class NovoTorneio extends javax.swing.JFrame {
         CriaNovoTorneio = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel1.setText("Criação de Torneio");
@@ -204,7 +205,7 @@ public class NovoTorneio extends javax.swing.JFrame {
             torneio = new EliminacaoSimples(NomeNovoTorneio.getText(),SeededTrue.isSelected());
         }
         else{
-            JOptionPane.showMessageDialog(null, "Vem aí");
+            JOptionPane.showMessageDialog(null, "Eliminação Dupla será implementado futuramente");
             //torneio = new EliminacaoDupla(NomeNovoTorneio.getText(),SeededTrue.isSelected());
             return;
         }
