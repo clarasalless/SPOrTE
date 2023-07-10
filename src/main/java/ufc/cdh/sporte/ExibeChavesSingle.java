@@ -158,6 +158,11 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         timeD.setText("jLabel4");
 
         jButton13.setText("jButton1");
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
 
         jLabel27.setText("jLabel16");
 
@@ -206,6 +211,11 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         jLabel31.setText("jLabel16");
 
         jButton15.setText("jButton1");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -246,6 +256,11 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         timeH.setText("jLabel8");
 
         jButton16.setText("jButton1");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
 
         jLabel33.setText("jLabel16");
 
@@ -321,6 +336,11 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         jLabel38.setText("jLabel15");
 
         jButton18.setText("jButton1");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
 
         jLabel37.setText("jLabel16");
 
@@ -363,6 +383,11 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         jLabel12.setText("jLabel2");
 
         jButton17.setText("jButton1");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
 
         jLabel36.setText("jLabel15");
 
@@ -430,6 +455,11 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         jLabel14.setText("jLabel2");
 
         jButton19.setText("jButton1");
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
 
         jLabel39.setText("jLabel16");
 
@@ -538,6 +568,8 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        EditaPartida partida1 = new EditaPartida(torneio.getChave().buscaPartida(1));
+        partida1.setVisible(true);
     }//GEN-LAST:event_jButton14ActionPerformed
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
@@ -573,6 +605,42 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         this.setVisible(false);
         novoTorneio.setVisible(true);
     }//GEN-LAST:event_jMenuItem3ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        // TODO add your handling code here:
+        EditaPartida partida2 = new EditaPartida(torneio.getChave().buscaPartida(2));
+        partida2.setVisible(true);
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        // TODO add your handling code here:
+        EditaPartida partida3 = new EditaPartida(torneio.getChave().buscaPartida(3));
+        partida3.setVisible(true);
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        // TODO add your handling code here:
+        EditaPartida partida4 = new EditaPartida(torneio.getChave().buscaPartida(4));
+        partida4.setVisible(true);
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        // TODO add your handling code here:
+        EditaPartida partida5 = new EditaPartida(torneio.getChave().buscaPartida(5));
+        partida5.setVisible(true);
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        // TODO add your handling code here:
+        EditaPartida partida6 = new EditaPartida(torneio.getChave().buscaPartida(6));
+        partida6.setVisible(true);
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        // TODO add your handling code here:
+        EditaPartida partida7 = new EditaPartida(torneio.getChave().buscaPartida(7));
+        partida7.setVisible(true);
+    }//GEN-LAST:event_jButton19ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
