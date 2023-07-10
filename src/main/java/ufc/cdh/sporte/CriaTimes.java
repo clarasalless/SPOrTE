@@ -1705,7 +1705,7 @@ public class CriaTimes extends javax.swing.JFrame {
         }
         try{
                 if(torneio.getSeeded()){
-                torneio.cadastrarTime(new TimeSeeded(timeNome1.getText(),Integer.parseInt(jTextField2.getText())));
+                torneio.cadastrarTime(new TimeSeeded(timeNome2.getText(),Integer.parseInt(jTextField2.getText())));
             } 
             else{
                 torneio.cadastrarTime(new TimeNaoSeeded(timeNome2.getText()));
