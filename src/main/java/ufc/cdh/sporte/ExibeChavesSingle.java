@@ -26,7 +26,32 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         labels.add(timeF);
         labels.add(timeG);
         labels.add(timeH);  
-        
+        Vector<javax.swing.JLabel> scores = new Vector();
+        scores.add(a1);
+        scores.add(b1);
+        scores.add(a2);
+        scores.add(b2);
+        scores.add(a3);
+        scores.add(b3);
+        scores.add(a4);
+        scores.add(b4);
+        scores.add(a5);
+        scores.add(b5);
+        scores.add(a6);
+        scores.add(b6);
+        scores.add(a7);
+        scores.add(jLabel39);
+        for(int i = 0; i < 14; i++){
+            try{
+                if(i%2 == 0){
+                    scores.get(i).setText(Integer.toString(torneio.getChave().buscaPartida((i/2) + 1).getPlacarA()));
+                }
+                else{
+                    scores.get(i).setText(Integer.toString(torneio.getChave().buscaPartida((i/2) + 1).getPlacarB()));
+                }
+            }
+            catch(NullPointerException e){}
+        }
 //        labels.get(1).setText(torneio.buscaPartida(1).getTimeA().getNome());
         for(int i = 0; i <= 3; i++){
             labels.get(2*i).setText(torneio.getChave().buscaPartida(i+1).getTimeA().getNome());
@@ -36,6 +61,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         try{
             torneio.getChave().buscaPartida(6).setTimeA();
             jLabel9.setText(torneio.getChave().buscaPartida(6).getTimeA().getNome());
+            
         }
         catch(NullPointerException e){}
         try{
@@ -63,6 +89,11 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
             jLabel14.setText(torneio.getChave().buscaPartida(7).getTimeB().getNome());
         }
         catch(NullPointerException e){}
+        try{
+            jLabel1.setText(torneio.getChave().buscaPartida(7).getVencedor().getNome());
+        }
+        catch(NullPointerException e){}
+         
     }
 
     /**
@@ -80,46 +111,46 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         timeA = new javax.swing.JLabel();
         timeB = new javax.swing.JLabel();
         jButton14 = new javax.swing.JButton();
-        jLabel29 = new javax.swing.JLabel();
-        jLabel30 = new javax.swing.JLabel();
+        b1 = new javax.swing.JLabel();
+        a1 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         timeC = new javax.swing.JLabel();
         timeD = new javax.swing.JLabel();
         jButton13 = new javax.swing.JButton();
-        jLabel27 = new javax.swing.JLabel();
-        jLabel28 = new javax.swing.JLabel();
+        b2 = new javax.swing.JLabel();
+        a2 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         timeE = new javax.swing.JLabel();
         timeF = new javax.swing.JLabel();
-        jLabel32 = new javax.swing.JLabel();
-        jLabel31 = new javax.swing.JLabel();
+        a3 = new javax.swing.JLabel();
+        b3 = new javax.swing.JLabel();
         jButton15 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
         timeG = new javax.swing.JLabel();
         timeH = new javax.swing.JLabel();
         jButton16 = new javax.swing.JButton();
-        jLabel33 = new javax.swing.JLabel();
-        jLabel34 = new javax.swing.JLabel();
+        b4 = new javax.swing.JLabel();
+        a4 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jPanel9 = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        jLabel38 = new javax.swing.JLabel();
+        a6 = new javax.swing.JLabel();
         jButton18 = new javax.swing.JButton();
-        jLabel37 = new javax.swing.JLabel();
+        b6 = new javax.swing.JLabel();
         jPanel10 = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jButton17 = new javax.swing.JButton();
-        jLabel36 = new javax.swing.JLabel();
-        jLabel35 = new javax.swing.JLabel();
+        a5 = new javax.swing.JLabel();
+        b5 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jPanel11 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jButton19 = new javax.swing.JButton();
         jLabel39 = new javax.swing.JLabel();
-        jLabel40 = new javax.swing.JLabel();
+        a7 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
@@ -128,7 +159,6 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         jMenuItem2 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1200, 700));
         setResizable(false);
 
         jPanel1.setPreferredSize(new java.awt.Dimension(315, 413));
@@ -146,9 +176,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
             }
         });
 
-        jLabel29.setText("0");
+        b1.setText("0");
 
-        jLabel30.setText("0");
+        a1.setText("0");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -161,8 +191,8 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                     .addComponent(timeA))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel29)
-                    .addComponent(jLabel30))
+                    .addComponent(b1)
+                    .addComponent(a1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton14)
                 .addContainerGap())
@@ -176,9 +206,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addComponent(jLabel30)
+                                .addComponent(a1)
                                 .addGap(59, 59, 59)
-                                .addComponent(jLabel29))
+                                .addComponent(b1))
                             .addGroup(jPanel4Layout.createSequentialGroup()
                                 .addComponent(timeA)
                                 .addGap(59, 59, 59)
@@ -200,9 +230,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
             }
         });
 
-        jLabel27.setText("0");
+        b2.setText("0");
 
-        jLabel28.setText("0");
+        a2.setText("0");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -215,8 +245,8 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                     .addComponent(timeD))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel27)
-                    .addComponent(jLabel28))
+                    .addComponent(b2)
+                    .addComponent(a2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
@@ -227,9 +257,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(jLabel28)
+                        .addComponent(a2)
                         .addGap(59, 59, 59)
-                        .addComponent(jLabel27))
+                        .addComponent(b2))
                     .addComponent(jButton13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addComponent(timeC)
@@ -244,9 +274,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
 
         timeF.setText("jLabel6");
 
-        jLabel32.setText("0");
+        a3.setText("0");
 
-        jLabel31.setText("0");
+        b3.setText("0");
 
         jButton15.setText("Editar");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
@@ -266,8 +296,8 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                     .addComponent(timeF))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 71, Short.MAX_VALUE)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel31)
-                    .addComponent(jLabel32))
+                    .addComponent(b3)
+                    .addComponent(a3))
                 .addGap(9, 9, 9)
                 .addComponent(jButton15)
                 .addContainerGap())
@@ -279,9 +309,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jButton15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addComponent(jLabel32)
+                        .addComponent(a3)
                         .addGap(59, 59, 59)
-                        .addComponent(jLabel31))
+                        .addComponent(b3))
                     .addGroup(jPanel6Layout.createSequentialGroup()
                         .addComponent(timeE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -302,9 +332,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
             }
         });
 
-        jLabel33.setText("0");
+        b4.setText("0");
 
-        jLabel34.setText("0");
+        a4.setText("0");
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -317,8 +347,8 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                     .addComponent(timeH))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel33)
-                    .addComponent(jLabel34))
+                    .addComponent(b4)
+                    .addComponent(a4))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton16)
                 .addContainerGap())
@@ -330,9 +360,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jButton16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel7Layout.createSequentialGroup()
-                        .addComponent(jLabel34)
+                        .addComponent(a4)
                         .addGap(59, 59, 59)
-                        .addComponent(jLabel33))
+                        .addComponent(b4))
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addComponent(timeG)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -351,7 +381,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                     .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(115, Short.MAX_VALUE))
+                .addContainerGap(114, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -375,7 +405,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
 
         jLabel10.setText("-------");
 
-        jLabel38.setText("-------");
+        a6.setText("-------");
 
         jButton18.setText("Editar");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
@@ -384,7 +414,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
             }
         });
 
-        jLabel37.setText("-------");
+        b6.setText("-------");
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -397,8 +427,8 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                     .addComponent(jLabel9))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel37)
-                    .addComponent(jLabel38))
+                    .addComponent(b6)
+                    .addComponent(a6))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
@@ -410,9 +440,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jButton18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addComponent(jLabel38)
+                        .addComponent(a6)
                         .addGap(59, 59, 59)
-                        .addComponent(jLabel37))
+                        .addComponent(b6))
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addComponent(jLabel9)
                         .addGap(59, 59, 59)
@@ -433,9 +463,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
             }
         });
 
-        jLabel36.setText("-------");
+        a5.setText("-------");
 
-        jLabel35.setText("-------");
+        b5.setText("-------");
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
@@ -448,8 +478,8 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                     .addComponent(jLabel11))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel35)
-                    .addComponent(jLabel36))
+                    .addComponent(b5)
+                    .addComponent(a5))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
@@ -461,9 +491,9 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jButton17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel10Layout.createSequentialGroup()
-                        .addComponent(jLabel36)
+                        .addComponent(a5)
                         .addGap(59, 59, 59)
-                        .addComponent(jLabel35))
+                        .addComponent(b5))
                     .addGroup(jPanel10Layout.createSequentialGroup()
                         .addComponent(jLabel11)
                         .addGap(59, 59, 59)
@@ -509,7 +539,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
 
         jLabel39.setText("-------");
 
-        jLabel40.setText("-------");
+        a7.setText("-------");
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
@@ -523,7 +553,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel39)
-                    .addComponent(jLabel40))
+                    .addComponent(a7))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton19)
                 .addContainerGap())
@@ -535,7 +565,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jButton19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel11Layout.createSequentialGroup()
-                        .addComponent(jLabel40)
+                        .addComponent(a7)
                         .addGap(59, 59, 59)
                         .addComponent(jLabel39))
                     .addGroup(jPanel11Layout.createSequentialGroup()
@@ -552,7 +582,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap(84, Short.MAX_VALUE)
+                .addContainerGap(86, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addComponent(jLabel1)
@@ -624,7 +654,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
         try{
-            EditaPartida partida1 = new EditaPartida(torneio,torneio.getChave().buscaPartida(1),jLabel30, jLabel29, jLabel11);
+            EditaPartida partida1 = new EditaPartida(torneio,torneio.getChave().buscaPartida(1),a1, b1, jLabel11);
             partida1.setVisible(true);
         }
         catch(NullPointerException e){
@@ -669,7 +699,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         // TODO add your handling code here:
         try{
-            EditaPartida partida2 = new EditaPartida(torneio,torneio.getChave().buscaPartida(2),jLabel28,jLabel27,jLabel12);
+            EditaPartida partida2 = new EditaPartida(torneio,torneio.getChave().buscaPartida(2),a2,b2,jLabel12);
             partida2.setVisible(true);
         }
         catch(NullPointerException e){
@@ -680,7 +710,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
         // TODO add your handling code here:
         try{
-            EditaPartida partida3 = new EditaPartida(torneio,torneio.getChave().buscaPartida(3),jLabel32,jLabel31,jLabel9);
+            EditaPartida partida3 = new EditaPartida(torneio,torneio.getChave().buscaPartida(3),a3,b3,jLabel9);
             partida3.setVisible(true);
         }
         catch(NullPointerException e){
@@ -691,7 +721,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
         // TODO add your handling code here:
         try{
-            EditaPartida partida4 = new EditaPartida(torneio,torneio.getChave().buscaPartida(4),jLabel34,jLabel33,jLabel10);
+            EditaPartida partida4 = new EditaPartida(torneio,torneio.getChave().buscaPartida(4),a4,b4,jLabel10);
             partida4.setVisible(true);
         }
         catch(NullPointerException e){
@@ -704,7 +734,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         try{
             torneio.getChave().buscaPartida(5).setTimeA();
             torneio.getChave().buscaPartida(5).setTimeB();
-            EditaPartida partida5 = new EditaPartida(torneio,torneio.getChave().buscaPartida(5),jLabel36,jLabel35,jLabel13);
+            EditaPartida partida5 = new EditaPartida(torneio,torneio.getChave().buscaPartida(5),a5,b5,jLabel13);
             partida5.setVisible(true);
         }
         catch(NullPointerException e){
@@ -717,7 +747,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         try{
             torneio.getChave().buscaPartida(6).setTimeA();
             torneio.getChave().buscaPartida(6).setTimeB();
-            EditaPartida partida6 = new EditaPartida(torneio,torneio.getChave().buscaPartida(6),jLabel38,jLabel37,jLabel14);
+            EditaPartida partida6 = new EditaPartida(torneio,torneio.getChave().buscaPartida(6),a6,b6,jLabel14);
             partida6.setVisible(true);
         }
         catch(NullPointerException e){
@@ -730,7 +760,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         try{
             torneio.getChave().buscaPartida(7).setTimeA();
             torneio.getChave().buscaPartida(7).setTimeB();
-            EditaPartida partida7 = new EditaPartida(torneio,torneio.getChave().buscaPartida(7),jLabel40,jLabel39,jLabel1);
+            EditaPartida partida7 = new EditaPartida(torneio,torneio.getChave().buscaPartida(7),a7,jLabel39,jLabel1);
             partida7.setVisible(true);
         }
         catch(NullPointerException e){
@@ -740,6 +770,19 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel a1;
+    private javax.swing.JLabel a2;
+    private javax.swing.JLabel a3;
+    private javax.swing.JLabel a4;
+    private javax.swing.JLabel a5;
+    private javax.swing.JLabel a6;
+    private javax.swing.JLabel a7;
+    private javax.swing.JLabel b1;
+    private javax.swing.JLabel b2;
+    private javax.swing.JLabel b3;
+    private javax.swing.JLabel b4;
+    private javax.swing.JLabel b5;
+    private javax.swing.JLabel b6;
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
@@ -754,20 +797,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel27;
-    private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel29;
-    private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
-    private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
-    private javax.swing.JLabel jLabel37;
-    private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel39;
-    private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenuBar jMenuBar1;
