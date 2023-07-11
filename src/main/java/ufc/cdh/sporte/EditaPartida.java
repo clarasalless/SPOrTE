@@ -4,26 +4,36 @@
  */
 package ufc.cdh.sporte;
 
+import javax.swing.JOptionPane;
 import ufc.cdh.sporte.partida.PartidaAbstrata;
 import ufc.cdh.sporte.times.TimeAbstrato;
+import ufc.cdh.sporte.torneio.Torneio;
 
 /**
  *
  * @author main
  */
 public class EditaPartida extends javax.swing.JFrame {
-
+    
+    Torneio torneio;
     PartidaAbstrata partida;
     TimeAbstrato timeA;
     TimeAbstrato timeB;
+    javax.swing.JLabel placarA;
+    javax.swing.JLabel placarB;
+    javax.swing.JLabel vencedor;
 
     /**
      * Creates new form Partida
      *
      * @param partida
      */
-    public EditaPartida(PartidaAbstrata partida) {
+    public EditaPartida(Torneio torneio, PartidaAbstrata partida,javax.swing.JLabel placarA,javax.swing.JLabel placarB,javax.swing.JLabel vencedor) {
+        this.torneio = torneio;
         this.partida = partida;
+        this.placarA = placarA;
+        this.placarB = placarB;
+        this.vencedor = vencedor;
         timeA = partida.getTimeA();
         timeB = partida.getTimeB();
         initComponents();
@@ -52,7 +62,8 @@ public class EditaPartida extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(204, 255, 204));
+        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
 
         jLabel2.setText("jLabel2");
 
@@ -60,6 +71,11 @@ public class EditaPartida extends javax.swing.JFrame {
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
+            }
+        });
+        jTextField2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField2KeyTyped(evt);
             }
         });
 
@@ -87,11 +103,17 @@ public class EditaPartida extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(204, 255, 204));
+        jPanel2.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
 
         jLabel1.setText("jLabel1");
 
         jTextField1.setText("Placar do time A");
+        jTextField1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField1KeyTyped(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -134,11 +156,11 @@ public class EditaPartida extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(48, 48, 48)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
                 .addComponent(jLabel3)
                 .addGap(44, 44, 44)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(48, Short.MAX_VALUE))
+                .addContainerGap(44, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(262, 262, 262)
                 .addComponent(jButton1)
@@ -158,7 +180,7 @@ public class EditaPartida extends javax.swing.JFrame {
                         .addComponent(jButton1)
                         .addGap(151, 151, 151)
                         .addComponent(jLabel3)))
-                .addContainerGap(53, Short.MAX_VALUE))
+                .addContainerGap(49, Short.MAX_VALUE))
         );
 
         pack();
@@ -166,11 +188,62 @@ public class EditaPartida extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        if(jTextField1.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Insira um valor para a pontuação do primeiro time");
+            return;
+        }
+        if(jTextField2.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Insira um valor para a pontuação do segundo time");
+            return;
+        }
+        if(Integer.parseInt(jTextField1.getText())>2 || Integer.parseInt(jTextField1.getText())<0){
+            JOptionPane.showMessageDialog(null, "Insira um valor válido para a pontuação do primeiro time");
+            return;
+        }
+        if(Integer.parseInt(jTextField2.getText())>2 || Integer.parseInt(jTextField2.getText())<0){
+            JOptionPane.showMessageDialog(null, "Insira um valor válido para a pontuação do segundo time");
+            return;
+        }
+        if((Integer.parseInt(jTextField1.getText())+Integer.parseInt(jTextField2.getText()))>3){
+            JOptionPane.showMessageDialog(null, "Valor de placar inválido para melhor de 3");
+            return;
+        }
+        partida.setPlacarA(Integer.parseInt(jTextField1.getText()));
+        placarA.setText(jTextField1.getText());
+        partida.setPlacarB(Integer.parseInt(jTextField2.getText()));
+        placarB.setText(jTextField2.getText());
+        if(partida.getPlacarA()==2){
+            partida.setVencedor(timeA);
+            partida.setPerdedor(timeB);
+            vencedor.setText(timeA.getNome());
+        }
+        if(partida.getPlacarB()==2){
+            partida.setVencedor(timeB);
+            partida.setPerdedor(timeA);
+            vencedor.setText(timeB.getNome());
+        }
+        this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jTextField1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1KeyTyped
+        // TODO add your handling code here:
+        char c = evt.getKeyChar();
+        if(!Character.isDigit(c)){
+            evt.consume();
+        }
+    }//GEN-LAST:event_jTextField1KeyTyped
+
+    private void jTextField2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField2KeyTyped
+        // TODO add your handling code here:
+        char c = evt.getKeyChar();
+        if(!Character.isDigit(c)){
+            evt.consume();
+        }
+    }//GEN-LAST:event_jTextField2KeyTyped
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
