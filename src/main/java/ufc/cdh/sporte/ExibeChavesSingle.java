@@ -33,6 +33,36 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
             labels.get(2*i+1).setText(torneio.getChave().buscaPartida(i+1).getTimeB().getNome());
             //labels.get(i).setText(torneio.getTimes().getTimes().get(i).getNome());
         }
+        try{
+            torneio.getChave().buscaPartida(6).setTimeA();
+            jLabel9.setText(torneio.getChave().buscaPartida(6).getTimeA().getNome());
+        }
+        catch(NullPointerException e){}
+        try{
+            torneio.getChave().buscaPartida(6).setTimeB();
+            jLabel10.setText(torneio.getChave().buscaPartida(6).getTimeB().getNome());
+        }
+        catch(NullPointerException e){}
+        try{
+            torneio.getChave().buscaPartida(5).setTimeA();
+            jLabel11.setText(torneio.getChave().buscaPartida(5).getTimeA().getNome());
+        }
+        catch(NullPointerException e){}
+        try{
+            torneio.getChave().buscaPartida(5).setTimeA();
+            jLabel12.setText(torneio.getChave().buscaPartida(5).getTimeB().getNome());
+        }
+        catch(NullPointerException e){}
+        try{
+            torneio.getChave().buscaPartida(7).setTimeA();
+            jLabel13.setText(torneio.getChave().buscaPartida(7).getTimeA().getNome());
+        }
+        catch(NullPointerException e){}
+        try{
+            torneio.getChave().buscaPartida(7).setTimeB();
+            jLabel14.setText(torneio.getChave().buscaPartida(7).getTimeB().getNome());
+        }
+        catch(NullPointerException e){}
     }
 
     /**
@@ -593,8 +623,13 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
-        EditaPartida partida1 = new EditaPartida(torneio,torneio.getChave().buscaPartida(1),jLabel30, jLabel29, jLabel11);
-        partida1.setVisible(true);
+        try{
+            EditaPartida partida1 = new EditaPartida(torneio,torneio.getChave().buscaPartida(1),jLabel30, jLabel29, jLabel11);
+            partida1.setVisible(true);
+        }
+        catch(NullPointerException e){
+            JOptionPane.showMessageDialog(null, "Partida ainda não definida");
+        }
     }//GEN-LAST:event_jButton14ActionPerformed
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
@@ -633,44 +668,74 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         // TODO add your handling code here:
-        EditaPartida partida2 = new EditaPartida(torneio,torneio.getChave().buscaPartida(2),jLabel28,jLabel27,jLabel12);
-        partida2.setVisible(true);
+        try{
+            EditaPartida partida2 = new EditaPartida(torneio,torneio.getChave().buscaPartida(2),jLabel28,jLabel27,jLabel12);
+            partida2.setVisible(true);
+        }
+        catch(NullPointerException e){
+            JOptionPane.showMessageDialog(null, "Partida ainda não definida");
+        }
     }//GEN-LAST:event_jButton13ActionPerformed
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
         // TODO add your handling code here:
-        EditaPartida partida3 = new EditaPartida(torneio,torneio.getChave().buscaPartida(3),jLabel32,jLabel31,jLabel9);
-        partida3.setVisible(true);
+        try{
+            EditaPartida partida3 = new EditaPartida(torneio,torneio.getChave().buscaPartida(3),jLabel32,jLabel31,jLabel9);
+            partida3.setVisible(true);
+        }
+        catch(NullPointerException e){
+            JOptionPane.showMessageDialog(null, "Partida ainda não definida");
+        }
     }//GEN-LAST:event_jButton15ActionPerformed
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
         // TODO add your handling code here:
-        EditaPartida partida4 = new EditaPartida(torneio,torneio.getChave().buscaPartida(4),jLabel34,jLabel33,jLabel10);
-        partida4.setVisible(true);
+        try{
+            EditaPartida partida4 = new EditaPartida(torneio,torneio.getChave().buscaPartida(4),jLabel34,jLabel33,jLabel10);
+            partida4.setVisible(true);
+        }
+        catch(NullPointerException e){
+            JOptionPane.showMessageDialog(null, "Partida ainda não definida");
+        }
     }//GEN-LAST:event_jButton16ActionPerformed
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
         // TODO add your handling code here:
-        torneio.getChave().buscaPartida(5).setTimeA();
-        torneio.getChave().buscaPartida(5).setTimeB();
-        EditaPartida partida5 = new EditaPartida(torneio,torneio.getChave().buscaPartida(5),jLabel36,jLabel35,jLabel13);
-        partida5.setVisible(true);
+        try{
+            torneio.getChave().buscaPartida(5).setTimeA();
+            torneio.getChave().buscaPartida(5).setTimeB();
+            EditaPartida partida5 = new EditaPartida(torneio,torneio.getChave().buscaPartida(5),jLabel36,jLabel35,jLabel13);
+            partida5.setVisible(true);
+        }
+        catch(NullPointerException e){
+            JOptionPane.showMessageDialog(null, "Partida ainda não definida");
+        }
     }//GEN-LAST:event_jButton17ActionPerformed
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
         // TODO add your handling code here:
-        torneio.getChave().buscaPartida(6).setTimeA();
-        torneio.getChave().buscaPartida(6).setTimeB();
-        EditaPartida partida6 = new EditaPartida(torneio,torneio.getChave().buscaPartida(6),jLabel38,jLabel37,jLabel14);
-        partida6.setVisible(true);
+        try{
+            torneio.getChave().buscaPartida(6).setTimeA();
+            torneio.getChave().buscaPartida(6).setTimeB();
+            EditaPartida partida6 = new EditaPartida(torneio,torneio.getChave().buscaPartida(6),jLabel38,jLabel37,jLabel14);
+            partida6.setVisible(true);
+        }
+        catch(NullPointerException e){
+            JOptionPane.showMessageDialog(null, "Partida ainda não definida");
+        }
     }//GEN-LAST:event_jButton18ActionPerformed
 
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
         // TODO add your handling code here:
-        torneio.getChave().buscaPartida(7).setTimeA();
-        torneio.getChave().buscaPartida(7).setTimeB();
-        EditaPartida partida7 = new EditaPartida(torneio,torneio.getChave().buscaPartida(7),jLabel40,jLabel39,jLabel1);
-        partida7.setVisible(true);
+        try{
+            torneio.getChave().buscaPartida(7).setTimeA();
+            torneio.getChave().buscaPartida(7).setTimeB();
+            EditaPartida partida7 = new EditaPartida(torneio,torneio.getChave().buscaPartida(7),jLabel40,jLabel39,jLabel1);
+            partida7.setVisible(true);
+        }
+        catch(NullPointerException e){
+            JOptionPane.showMessageDialog(null, "Partida ainda não definida");
+        }
     }//GEN-LAST:event_jButton19ActionPerformed
 
 

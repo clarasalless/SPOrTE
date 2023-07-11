@@ -188,41 +188,46 @@ public class EditaPartida extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        if(jTextField1.getText().equals("")){
-            JOptionPane.showMessageDialog(null, "Insira um valor para a pontuação do primeiro time");
-            return;
+        try{
+            if(jTextField1.getText().equals("")){
+                JOptionPane.showMessageDialog(null, "Insira um valor para a pontuação do primeiro time");
+                return;
+            }
+            if(jTextField2.getText().equals("")){
+                JOptionPane.showMessageDialog(null, "Insira um valor para a pontuação do segundo time");
+                return;
+            }
+            if(Integer.parseInt(jTextField1.getText())>2 || Integer.parseInt(jTextField1.getText())<0){
+                JOptionPane.showMessageDialog(null, "Insira um valor válido para a pontuação do primeiro time");
+                return;
+            }
+            if(Integer.parseInt(jTextField2.getText())>2 || Integer.parseInt(jTextField2.getText())<0){
+                JOptionPane.showMessageDialog(null, "Insira um valor válido para a pontuação do segundo time");
+                return;
+            }
+            if((Integer.parseInt(jTextField1.getText())+Integer.parseInt(jTextField2.getText()))>3){
+                JOptionPane.showMessageDialog(null, "Valor de placar inválido para melhor de 3");
+                return;
+            }
+            partida.setPlacarA(Integer.parseInt(jTextField1.getText()));
+            placarA.setText(jTextField1.getText());
+            partida.setPlacarB(Integer.parseInt(jTextField2.getText()));
+            placarB.setText(jTextField2.getText());
+            if(partida.getPlacarA()==2){
+                partida.setVencedor(timeA);
+                partida.setPerdedor(timeB);
+                vencedor.setText(timeA.getNome());
+            }
+            if(partida.getPlacarB()==2){
+                partida.setVencedor(timeB);
+                partida.setPerdedor(timeA);
+                vencedor.setText(timeB.getNome());
+            }
+            this.setVisible(false);
         }
-        if(jTextField2.getText().equals("")){
-            JOptionPane.showMessageDialog(null, "Insira um valor para a pontuação do segundo time");
-            return;
+        catch(NumberFormatException e){
+            JOptionPane.showMessageDialog(null, "Insira uma pontuação válida");
         }
-        if(Integer.parseInt(jTextField1.getText())>2 || Integer.parseInt(jTextField1.getText())<0){
-            JOptionPane.showMessageDialog(null, "Insira um valor válido para a pontuação do primeiro time");
-            return;
-        }
-        if(Integer.parseInt(jTextField2.getText())>2 || Integer.parseInt(jTextField2.getText())<0){
-            JOptionPane.showMessageDialog(null, "Insira um valor válido para a pontuação do segundo time");
-            return;
-        }
-        if((Integer.parseInt(jTextField1.getText())+Integer.parseInt(jTextField2.getText()))>3){
-            JOptionPane.showMessageDialog(null, "Valor de placar inválido para melhor de 3");
-            return;
-        }
-        partida.setPlacarA(Integer.parseInt(jTextField1.getText()));
-        placarA.setText(jTextField1.getText());
-        partida.setPlacarB(Integer.parseInt(jTextField2.getText()));
-        placarB.setText(jTextField2.getText());
-        if(partida.getPlacarA()==2){
-            partida.setVencedor(timeA);
-            partida.setPerdedor(timeB);
-            vencedor.setText(timeA.getNome());
-        }
-        if(partida.getPlacarB()==2){
-            partida.setVencedor(timeB);
-            partida.setPerdedor(timeA);
-            vencedor.setText(timeB.getNome());
-        }
-        this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
