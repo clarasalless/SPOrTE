@@ -76,7 +76,7 @@ public class ExibeChavesSingle extends javax.swing.JFrame {
         }
         catch(NullPointerException e){}
         try{
-            torneio.getChave().buscaPartida(5).setTimeA();
+            torneio.getChave().buscaPartida(5).setTimeB();
             jLabel12.setText(torneio.getChave().buscaPartida(5).getTimeB().getNome());
         }
         catch(NullPointerException e){}
