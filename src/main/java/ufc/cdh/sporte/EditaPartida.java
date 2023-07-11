@@ -36,6 +36,7 @@ public class EditaPartida extends javax.swing.JFrame {
         this.vencedor = vencedor;
         timeA = partida.getTimeA();
         timeB = partida.getTimeB();
+        this.setTitle("SPOrTE");
         initComponents();
         jLabel1.setText(timeA.getNome());
         jLabel2.setText(timeB.getNome());

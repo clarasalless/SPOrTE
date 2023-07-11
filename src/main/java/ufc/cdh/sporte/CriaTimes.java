@@ -27,6 +27,7 @@ public class CriaTimes extends javax.swing.JFrame {
     Torneio torneio;
     public CriaTimes(Torneio torneio) {
         this.torneio = torneio;
+        this.setTitle("SPOrTE");
         initComponents();
     }
 

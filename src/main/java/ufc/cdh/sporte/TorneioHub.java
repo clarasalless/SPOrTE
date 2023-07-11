@@ -22,6 +22,7 @@ public class TorneioHub extends javax.swing.JFrame {
      */
     public TorneioHub() {
         initComponents();
+        this.setTitle("SPOrTE");
         this.setVisible(true);
     }
 

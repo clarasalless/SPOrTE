@@ -20,6 +20,7 @@ public class NovoTorneio extends javax.swing.JFrame {
      * Creates new form NovoTorneio
      */
     public NovoTorneio() {
+        this.setTitle("SPOrTE");
         initComponents();
     }
 

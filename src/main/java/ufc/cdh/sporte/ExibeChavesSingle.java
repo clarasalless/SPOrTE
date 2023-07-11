@@ -13,6 +13,7 @@ import ufc.cdh.sporte.torneio.Torneio;
 public class ExibeChavesSingle extends javax.swing.JFrame {
     Torneio torneio;
     public ExibeChavesSingle(Torneio torneio){
+        this.setTitle("SPOrTE");
         initComponents();
         Serializador ser = new Serializador();
         this.torneio = torneio;
