@@ -14,6 +14,7 @@ public class ExibeChavesDouble extends javax.swing.JFrame {
      * Creates new form ExibeChavesDouble
      */
     public ExibeChavesDouble() {
+        this.setTitle("SPOrTE");
         initComponents();
     }
 
